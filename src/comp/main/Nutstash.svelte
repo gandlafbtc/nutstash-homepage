@@ -5,7 +5,7 @@
             <div>
                 <img src="/nutstash.svg" alt="logo" class="w-72">
             </div>
-            <p class="text-xl">Nutstash is a Cashu Wallet for your browser, that lets you connect to multiple Mints.</p>
+            <p class="text-xl">Nutstash is a Cashu wallet for your browser, that lets you connect to multiple Cashu mints.</p>
             <div class="flex gap-2">
                 <a class="btn btn-primary flex items-center gap-1" target="_blank" rel="noreferrer" href="https://cashu-wallet.vercel.app">
                     <p>

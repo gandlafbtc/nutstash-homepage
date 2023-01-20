@@ -8,6 +8,7 @@
         </div> 
         <div>
           <span class="footer-title">nutstash</span> 
+          <a class="link link-hover" href="https://cashu-wallet.vercel.app">Risks</a>
           <a class="link link-hover" href="https://cashu-wallet.vercel.app">Wallet</a>
           <a class="link link-hover" href="https://t.me/+DRy-rSe5wQtlYTk1">Help</a>
           <a class="link link-hover" href="https://t.me/+DRy-rSe5wQtlYTk1">FAQ</a>
