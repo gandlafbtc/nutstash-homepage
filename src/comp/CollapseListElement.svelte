@@ -9,7 +9,7 @@ export let listElement : QnA
 <div tabindex="0" class="collapse w-full"> 
     <div class="collapse-title text-xl font-bold bg-base-300 rounded-t-md flex justify-between">
       {listElement.title}
-      <div class="flex items-center gap-2">
+      <div class="lg:flex-row flex flex-col items-center gap-2 min-w-max">
             {#each listElement?.tags as tag}
             <div class="badge badge-outline">{tag}</div>
             {/each}
