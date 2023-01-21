@@ -15,8 +15,14 @@
         </div> 
         <div>
           <span class="footer-title">People</span> 
-          <a class="link link-hover" href="https://twitter.com/gandlaf21">@gandlaf21</a>
-          <a class="link link-hover"  href="https://twitter.com/callebtc">@callebtc</a>
+          <div class="flex gap-2">
+            <a class="link link-hover"  href="https://twitter.com/gandlaf21">@gandlaf21</a>
+            <p>- nutstash.app</p>
+          </div>
+          <div class="flex gap-2">
+            <a class="link link-hover"  href="https://twitter.com/callebtc">@callebtc</a> 
+            <p>- cashu.space</p>
+          </div>
         </div>
       </footer>
 </div>
