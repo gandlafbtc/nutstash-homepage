@@ -4,7 +4,7 @@ import type { Feature } from "../model/Feature"
 const features: Array<Feature> = [
     {
         title: "Mint tokens at any Cashu Mint",
-        text: "Nutstash has supports multiple mints at the same time. You can add as many Mints to your Wallet as you want!",
+        text: "Nutstash supports multiple mints at the same time. You can add as many Mints to your Wallet as you want!",
         imageUrl: '/multimint.png',
         icon: Icon.MINT
     },
