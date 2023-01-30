@@ -1,7 +1,9 @@
 enum Icon {
     MINT,
     WALLET,
-    LIGHTNING
+    LIGHTNING,
+    SEND,
+    SWAP
 }
 
 export {Icon}
