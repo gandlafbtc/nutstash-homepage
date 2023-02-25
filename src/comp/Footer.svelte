@@ -9,7 +9,7 @@
         <div>
           <span class="footer-title">nutstash</span> 
           <a class="link link-hover" href="/risks">Risks</a>
-          <a class="link link-hover" href="https://cashu-wallet.vercel.app">Wallet</a>
+          <a class="link link-hover" href="https://wallet.nutstash.app">Wallet</a>
           <a class="link link-hover" href="https://github.com/gandlafbtc/nutstash-wallet">Code</a>
           <a class="link link-hover" href="https://t.me/+DRy-rSe5wQtlYTk1">Help</a>
           <a class="link link-hover" href="https://t.me/+DRy-rSe5wQtlYTk1">FAQ</a>
