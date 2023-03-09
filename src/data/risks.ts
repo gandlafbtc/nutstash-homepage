@@ -13,7 +13,7 @@ const risks: Array<QnA> = [
     },
     {
         title: 'Loss of tokens.',
-        text: "The tokens in Cashu are bearer tokens. This means, if you loose access to your tokens, there is no way to recover them. Nutstash stores your tokens in the local storage of the browser. This means, you shouldn't use a private window, or the cache might get cleared. Also, before deleting your browser history, you should backup your tokens.",
+        text: "The tokens in Cashu are bearer tokens. This means, if you lose access to your tokens, there is no way to recover them. Nutstash stores your tokens in the local storage of the browser. This means, you shouldn't use a private window, or the cache might get cleared. Also, before deleting your browser history, you should backup your tokens.",
         tags: ['loss of tokens', 'bearer']
     },
     {
