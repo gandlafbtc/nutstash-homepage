@@ -18,6 +18,11 @@
 					<p>Run it yourself</p>
 				</a>
 			</div>
+			<div class="w-40">
+				<a href="https://apps.umbrel.com/app/nutstash-wallet" target="_blank" rel="noopener noreferrer">
+					<img src="umbrel-ns.svg" alt="">
+				</a>
+			</div>
 		</div>
 	</div>
 </div>

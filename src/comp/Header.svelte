@@ -27,6 +27,6 @@
 			</div>
 		</a>
 	</div>
-    <OpenWalletButton id={'1'}></OpenWalletButton>
+    <OpenWalletButton></OpenWalletButton>
 	
 </div>
