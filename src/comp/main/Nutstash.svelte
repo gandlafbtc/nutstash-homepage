@@ -11,7 +11,7 @@
 			<p class="text-xl text-center text-white">
 				Nutstash is a custodial lightning wallet for your browser, that uses the cashu ecash protocol to let you send and receive sats immediately, anonymously and privately.
 			</p>
-			<div class="h-44">
+			<div class="h-80">
 
 			</div>
 		</div>
