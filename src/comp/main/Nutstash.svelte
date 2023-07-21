@@ -2,27 +2,17 @@
 	import OpenWalletButton from '../OpenWalletButton.svelte';
 </script>
 
-<div class="hero bg-base-200 col-span-3">
-	<div class="hero-content text-center">
+<div class="bg-transparent ">
 		<div class="flex flex-col gap-10 p-4 items-center">
-			<h1 class="text-5xl font-bold">Hide your Nuts!</h1>
 			<div>
-				<img src="/nutstash.svg" alt="logo" class="w-72" />
+				<img src="/anon.svg" alt="logo" class="w-72 opacity-60" />
 			</div>
-			<p class="text-xl">
-				Nutstash is a Cashu wallet for your browser, that lets you connect to multiple Cashu mints.
+			<h1 class="text-3xl font-bold">Hide your Nuts!</h1>
+			<p class="text-xl text-center text-white">
+				Nutstash is a custodial lightning wallet for your browser, that uses the cashu ecash protocol to let you send and receive sats immediately, anonymously and privately.
 			</p>
-			<div class="flex gap-2">
-				<OpenWalletButton id={'2'} />
-				<a class="btn btn-primary btn-outline flex items-center gap-1" href="#run-yourself">
-					<p>Run it yourself</p>
-				</a>
-			</div>
-			<div class="w-40">
-				<a href="https://apps.umbrel.com/app/nutstash-wallet" target="_blank" rel="noopener noreferrer">
-					<img src="umbrel-ns.svg" alt="">
-				</a>
+			<div class="h-44">
+
 			</div>
 		</div>
-	</div>
 </div>

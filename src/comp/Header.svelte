@@ -1,32 +1,46 @@
 <script>
-	import OpenWalletButton from "./OpenWalletButton.svelte";
-
+	import OpenWalletButton from './OpenWalletButton.svelte';
+	import Logo from './main/Logo.svelte';
+	import Nutstash from './main/Nutstash.svelte';
 </script>
 
-<div class="navbar bg-base-100 flex justify-between">
-	<div class="flex gap-2">
-		<label for="my-drawer" class="btn btn-square drawer-button">
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				fill="none"
-				viewBox="0 0 24 24"
-				stroke-width="1.5"
-				stroke="currentColor"
-				class="w-6 h-6"
-			>
-				<path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-				/>
-			</svg>
-		</label>
-		<a class="btn btn-ghost normal-case text-xl" href="/">
-			<div class="h-10">
-				<img src="/nutstash.svg" alt="logo" class="h-10" />
+<div
+	style="background-image: url(/bg.png); background-size: cover;"
+	class="bg-transparent flex flex-col justify-start items-start pt-10"
+>
+	<div class="bg-transparent flex justify-between w-full p-2">
+		<Logo />
+		<div class="flex gap-2 items-center">
+			<div class="hidden lg:flex gap-2">
+				<a href="#features" class="">features</a>
+				<a href="#install">install</a>
+				<a href="#faq">faq</a>
+				<a href="#community">community</a>
 			</div>
-		</a>
+			<OpenWalletButton />
+			<div data-theme="light" class="bg-transparent flex gap-2">
+				<a
+					href="https://github.com/gandlafbtc/nutstash-wallet"
+					class="btn bg-white btn-circle flex items-center justify-center btn-sm"
+				>
+					<img src="/gh.svg" alt="" />
+				</a>
+				<a
+					href="https://t.me/+DRy-rSe5wQtlYTk1"
+					class="btn bg-white btn-circle flex items-center justify-center btn-sm"
+				>
+					<img src="/telegram.svg" alt="" />
+				</a>
+				<a
+					href="https://github.com/gandlafbtc/nutstash-wallet"
+					class="btn bg-white btn-circle flex items-center justify-center btn-sm"
+				>
+					<img src="/gh.svg" alt="" />
+				</a>
+			</div>
+		</div>
 	</div>
-    <OpenWalletButton></OpenWalletButton>
-	
+	<div class="w-full justify-center flex">
+		<Nutstash />
+	</div>
 </div>
