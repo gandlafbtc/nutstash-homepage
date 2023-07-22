@@ -1,4 +1,4 @@
-<div class="flex flex-col items-center pt-20 gap-5 w-full">
+<div id="features" class="flex flex-col items-center pt-20 gap-5 w-full">
 	<div class=" flex flex-col gap-4">
 		<h2 class="font-bold text-3xl">Stashing Features</h2>
 		<p class="text-white text-xl">nutstash wallet features</p>
