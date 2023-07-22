@@ -34,10 +34,10 @@
 			<img src="/telegram.svg" alt="" />
 		</a>
 		<a
-		href="https://github.com/gandlafbtc/nutstash-wallet"
+		href="https://twitter.com/gandlaf21"
 		class="btn bg-white btn-circle flex items-center justify-center btn-sm"
 		>
-		<img src="/gh.svg" alt="" />
+		<img src="/twitter.svg" alt="" />
 	</a>
 </div>
 </div>

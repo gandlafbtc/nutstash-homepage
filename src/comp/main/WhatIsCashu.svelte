@@ -1,6 +1,6 @@
 
 	<div>
-		<div class=" flex flex-col gap-4">
+		<div class=" flex flex-col gap-4 pb-16">
 			<h2 class="font-bold text-3xl">Nutstash</h2>
 			<p class="text-white text-xl">A custodial lightning wallet without accounts</p>
 		</div>

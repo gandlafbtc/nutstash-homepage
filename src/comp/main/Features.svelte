@@ -1,7 +1,7 @@
 <div id="features" class="flex flex-col items-center pt-20 gap-5 w-full">
-	<div class=" flex flex-col gap-4">
+	<div class=" flex flex-col gap-4 pb-16">
 		<h2 class="font-bold text-3xl">Stashing Features</h2>
-		<p class="text-white text-xl">nutstash wallet features</p>
+		<p class="text-white text-xl">Nutstash wallet comes with a suite of features</p>
 	</div>
 	<div class="grid grid-cols-1 lg:grid-cols-3 text-left gap-16">
         

@@ -1,7 +1,7 @@
 <div class="flex flex-col items-center pt-20 gap-5 w-full" id="install">
-	<div class=" flex flex-col gap-4">
+	<div class=" flex flex-col gap-4 pb-16">
 		<h2 class="font-bold text-3xl">Progressive Web App (PWA)</h2>
-		<p class="text-white text-xl">Install Nutstash on your device via browser</p>
+		<p class="text-white text-xl">Install Nutstash as a PWA on your device via browser. (iOS, Android or desktop)</p>
 	</div>
 	<div class="grid grid-cols-1 lg:grid-cols-3">
 		<div class="left-0 z-10 block">
@@ -49,8 +49,8 @@
 				<li>
 					<h4>Save to Home Screen</h4>
 					<p class="font-thin">
-						Using your mobile native internet browser, open an existing or create a new wallet at In
-						the browser sharing settings, will be an option to “Save to Home Screen”.
+						Using your internet browser (on mobile, use the native browser) go to 
+						the browser settings, and look for an "install" or  “Save to Home Screen” option.
 					</p>
 				</li>
 				<li>
