@@ -1,5 +1,7 @@
 <script>
-	import Pwa from '../comp/PWA.svelte';
+	import Community from '../comp/Community.svelte';
+	import Faq from '../comp/FAQ.svelte';
+import Pwa from '../comp/PWA.svelte';
 	import Umbrel from '../comp/Umbrel.svelte';
 	import WebWallet from '../comp/WebWallet.svelte';
 	import Features from '../comp/main/Features.svelte';
@@ -23,5 +25,7 @@
 		class="to-[#5616f7] bg-gradient-to-b from-secondary flex flex-col items-center text-center w-full"
 	>
         <Umbrel></Umbrel>
+        <Community></Community>
+        <Faq></Faq>
     </div>
 </div>

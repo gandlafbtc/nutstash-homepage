@@ -20,7 +20,7 @@ const copyGitClone = () => {
 			Nutstash can easily be self hosted, so you know your code gets shipped safely
 		</p>
 	</div>
-	<div class="grid grid-cols-1 lg:grid-cols-2 gap-40">
+	<div class="grid grid-cols-1 lg:grid-cols-2 gap-40 items-center justify-center">
 		<div class="items-center justify-center flex text-white font-bold order-1 lg:order-1">Install on umbrel</div>
 		<div class="left-0 z-10 block order-2 lg:order-2">
 			<a href="https://apps.umbrel.com/app/nutstash-wallet">
@@ -28,8 +28,8 @@ const copyGitClone = () => {
 			</a>
 		</div>
 		<div class="items-center justify-center flex text-white order-4 lg:order-3">
+			<a href="https://github.com/gandlafbtc/nutstash-wallet/pkgs/container/nutstash-wallet">
 			<div class="p-3 w-60 bg-white rounded-xl shadow-xl shadow-black">
-				<a href="https://github.com/gandlafbtc/nutstash-wallet/pkgs/container/nutstash-wallet">
 				<svg
 					class="text-[#086dd7]"
 					fill="currentColor"
@@ -73,9 +73,9 @@ const copyGitClone = () => {
 						d="m416.312 228.909h63.073c3.047 0 5.521-2.46 5.538-5.507v-56.182c0-3.059-2.479-5.538-5.538-5.538h-63.073c-3.041 0-5.507 2.466-5.507 5.507v.031 56.181c0 3.042 2.466 5.508 5.507 5.508"
 					/></svg
 				>
-			</a>
-
+				
 			</div>
+		</a>
 		</div>
 		<div class="items-center justify-center flex text-white font-bold order-3 lg:order-4">Install with Docker</div>
 		<div class="items-center justify-center flex text-white font-bold order-5 lg:order-5">Run from source</div>
