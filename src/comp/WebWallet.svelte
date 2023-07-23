@@ -14,7 +14,7 @@
 						<img src="/chrome.svg" alt="">
 					</div>
 					<div>
-						<img src="/brave.svg" alt="">
+						<img src="/edge.svg" alt="">
 					</div>
 					<div>
 						<img src="/safari.svg" alt="">
