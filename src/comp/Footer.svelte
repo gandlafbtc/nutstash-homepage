@@ -24,6 +24,14 @@
             <a class="link link-hover"  href="https://twitter.com/callebtc">@callebtc</a> 
             <p>- cashu.space</p>
           </div>
-        </div>
+          <span class="footer-title">Image credit</span> 
+          <div class="flex gap-2">
+
+          <p>
+            photo by 
+          </p>
+           <a class="link link-hover" href="https://unsplash.com/@manosgk">@manosgk</a>
+          </div>
+          </div>
       </footer>
 </div>
