@@ -1,24 +1,50 @@
-<div class="navbar bg-base-100 flex justify-between">
-    <div class="flex gap-2">
+<script>
+	import OpenWalletButton from './OpenWalletButton.svelte';
+	import Logo from './main/Logo.svelte';
+	import Nutstash from './main/Nutstash.svelte';
+</script>
 
-        <label for="my-drawer" class="btn btn-square drawer-button">  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
-          </label>
-        <a class="btn btn-ghost normal-case text-xl" href="/">
-            <div class="h-10">
-                <img src="/nutstash.svg" alt="logo" class="h-10">
-            </div>
-        </a>
-    </div>
-        
-    <a class="btn btn-primary flex items-center gap-1" target="_blank" rel="noreferrer" href="https://cashu-wallet.vercel.app">
-        <p>
-            Wallet 
-        </p>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 pb-1">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-          </svg>
-          
-    </a>
-  </div>
+<div
+	style="background-image: url(/bg.png); background-size: cover;"
+	class=" flex flex-col justify-start items-start pt-10"
+>
+<div class="from-transparent to-[#5616f7] bg-gradient-to-b">
+
+	<div class=" flex justify-between w-full p-2">
+		<Logo />
+		<div class="flex gap-2 items-center">
+			<div class="hidden lg:flex gap-2 text-white font-bold ">
+				<a href="#features" class="link hover:link-secondary no-underline">features</a>
+				<a href="#install"  class="link hover:link-secondary no-underline" >install</a>
+				<a href="#community" class="link hover:link-secondary no-underline" >community</a>
+				<a href="#faq" class="link hover:link-secondary no-underline" >faq</a>
+			</div>
+			<OpenWalletButton />
+			<div data-theme="light" class="bg-transparent flex gap-2">
+				<a
+				href="https://github.com/gandlafbtc/nutstash-wallet"
+					class="btn bg-white btn-circle flex items-center justify-center btn-sm"
+				>
+				<img src="/gh.svg" alt="" />
+			</a>
+			<a
+			href="https://t.me/+DRy-rSe5wQtlYTk1"
+			class="btn bg-white btn-circle flex items-center justify-center btn-sm"
+			>
+			<img src="/telegram.svg" alt="" />
+		</a>
+		<a
+		href="https://twitter.com/gandlaf21"
+		class="btn bg-white btn-circle flex items-center justify-center btn-sm"
+		>
+		<img src="/twitter.svg" alt="" />
+	</a>
+</div>
+</div>
+</div>
+<div class="w-full justify-center flex">
+	<Nutstash />
+</div>
+</div>
+
+</div>

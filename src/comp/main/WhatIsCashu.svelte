@@ -1,21 +1,43 @@
-<div class="hero bg-base-200 items-start col-span-3 lg:col-span-1">
-    <div class="hero-content">
-      <div class="flex flex-col gap-3 items-center text-center">
-        <h2 class="text-3xl font-bold">
-            What is 
-            <a href="https://cashu.space" class="link link-hover link-primary">Cashu</a>
-            ?
-        </h2>
-        <div class="w-20">
-            <img src="/cashu.png" alt="logo" class="w-22">
-        </div>
-        <p class="text-lg italic">"Cashu is a free and open-source Chaumian ecash system built for Bitcoin. Cashu offers near-perfect privacy for users of custodial Bitcoin applications. Nobody needs to knows who you are, how much funds you have, and with whom you transact with."</p>
-        <a href="https://cashu.space">
-            - cashu.space
-        </a>
-        <a class="btn btn-primary btn-outline" href="https://cashu.space">
-            Learn more
-        </a>
-    </div>
-    </div>
-  </div>
+
+	<div>
+		<div class=" flex flex-col gap-4 pb-16">
+			<h2 class="font-bold text-3xl">Nutstash</h2>
+			<p class="text-white text-xl">A custodial lightning wallet without accounts</p>
+		</div>
+		<div class="grid grid-cols-1 lg:grid-cols-3 text-left gap-5 p-2">
+			<div class="flex flex-col gap-3 w-80">
+			<div class="w-32 h-40 flex justify-end">
+				<img src="/shades.svg" alt="" />
+			</div>
+			<div class="flex flex-col">
+				<h3 class="font-bold text-lg">Ecash for Privacy</h3>
+				<p class=" text-white">
+					nutstash is a custodial lightning wallet that uses the Cashu ecash protocol to protect
+					your privacy.
+				</p>
+			</div>
+		</div>
+		<div class="flex flex-col gap-3 w-80">
+			<div class="w-32 h-40 flex justify-end">
+				<img src="/stache.svg" alt="" />
+			</div>
+			<div class="flex flex-col">
+				<h3 class="font-bold text-lg">Transact Anonymously</h3>
+				<p class=" text-white">
+					Ecash works without accounts. Cashu tokens are bearer assets, that are stored locally on your nutstash wallet.
+				</p>
+			</div>
+		</div>
+		<div class="flex flex-col gap-3 w-80">
+			<div class="w-32 h-40 flex justify-end">
+				<img src="/hat.svg" alt="" />
+			</div>
+			<div class="flex flex-col">
+				<h3 class="font-bold text-lg">Ecash for Privacy</h3>
+				<p class=" text-white">Choose your custodian
+					nutstash is not a custodian. The custodian of your sats are the mints you connect to.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
