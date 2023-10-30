@@ -14045,7 +14045,7 @@ figure{
     line-height:1em;
     z-index:4;
     color:inherit;
-    content:"\f123"
+    content:"\f143"
 }
 .card-arrow:not(.card-hover-arrow):hover::after{
     right:2rem;
@@ -14147,7 +14147,7 @@ figure{
     right:0;
     font-family:bootstrap-icons !important;
     font-size:1rem;
-    content:"\f282";
+    content:"\f143";
     color:inherit;
     margin-top:-0.5em;
     width:1em;
