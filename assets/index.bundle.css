@@ -36,8 +36,8 @@
      width: 1.25em !important;
 }
  .bg-gradient{
-     background: #d926aa;
-     background: linear-gradient(130deg, rgba(92,46,221,1) 0%, rgba(217,38,170,1) 57%);
+     background: #d926aa !important;
+     background: linear-gradient(130deg, rgba(92,46,221,1) 0%, rgba(217,38,170,1) 57%) !important;
 }
  :root{
     --bs-blue: #5C2EDD;
