@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="en" data-lt-installed="true" class="skrollr skrollr-desktop">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d926aa">
+	<meta name="msapplication-TileColor" content="#d926aa">
+	<meta name="theme-color" content="#d926aa">
+	<!-- Libs CSS -->
+	<link rel="stylesheet" href="assets/libs.bundle.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="assets/index.bundle.css">
+	<!-- Title -->
+	<title>Nutstash - Hide Your Nuts.</title>
+</head>
+
+<body class="bg-black headroom vsc-initialized headroom--not-bottom headroom--pinned headroom--top"
+	data-aos-easing="ease" data-aos-duration="800" data-aos-delay="0">
+	<!-- navbar -->
+	<nav id="mainNav" class="navbar navbar-expand-lg navbar-sticky navbar-dark">
+		<div class="container">
+			<a href="#" class="navbar-brand"><img src="assets/logo-gradient.svg" alt="Logo"></a>
+			<!-- secondary -->
+			<ul class="navbar-nav navbar-nav-secondary order-lg-3">
+				<li class="nav-item d-lg-none">
+					<a class="nav-link nav-icon" href="#" role="button" data-bs-toggle="collapse"
+						data-bs-target="#navbar" aria-expanded="false"
+						>
+						<span class="bi bi-list"></span>
+					</a>
+				</li>
+				<li class="nav-item d-none d-lg-block">
+					<a href="https://alpha.nutstash.app" target="_blank" class="btn btn-pink rounded-pill ms-2">
+						<i class="bi bi-arrow-up-right-square"></i> Open Wallet
+					</a>
+				</li>
+			</ul>
+			<!-- primary -->
+			<div class="collapse navbar-collapse" data-bs-parent="#mainNav">
+				<ul class="navbar-nav">
+					<li class="nav-item dropdown dropdown-hover">
+						<a class="nav-link dropdown-toggle" href="#nuts" id="navbarDropdown-1" role="button"
+							 aria-expanded="false">
+							Nuts
+						</a>
+					</li>
+					<li class="nav-item dropdown dropdown-hover">
+						<a class="nav-link dropdown-toggle" href="#why" id="navbarDropdown-2" role="button"
+							 aria-expanded="false">
+							Why
+						</a>
+					</li>
+					<li class="nav-item dropdown dropdown-hover">
+						<a class="nav-link dropdown-toggle" href="#fea" id="navbarDropdown-3" role="button"
+							 aria-expanded="false" data-bs-auto-close="outside">
+							Features
+						</a>
+					</li>
+					<li class="nav-item dropdown dropdown-hover">
+						<a class="nav-link dropdown-toggle" href="#faq" id="navbarDropdown-4" role="button"
+						aria-expanded="false" data-bs-auto-close="outside">
+							FAQs
+						</a>
+					</li>
+					<li class="nav-item dropdown dropdown-hover">
+						<a class="nav-link dropdown-toggle" href="https://t.me/+DRy-rSe5wQtlYTk1" target="_blank"
+							id="navbarDropdown-4" role="button"  aria-expanded="false"
+							data-bs-auto-close="outside">
+							Help
+						</a>
+					</li>
+					<li class="nav-item d-lg-none">
+						<a href="https://wallet.nutstash.app" target="_blank" class="nav-link text-primary"><i
+							class="bi bi-arrow-up-right-square"></i> Open Wallet</a>
+						</li>
+						<li class="nav-item dropdown dropdown-hover">
+							<a class="nav-link dropdown-toggle" href="https://github.com/gandlafbtc/nutstash-wallet"
+								target="_blank" id="navbarDropdown-5" role="button"
+								aria-expanded="false">
+								Code 
+							</a>
+						</li>
+				</ul>
+			</div>
+			<!-- mobile user menu -->
+		</div>
+	</nav>
+	<!-- split screen -->
+	<section id="nuts" class="overflow-hidden inverted border-bottom">
+		<div class="py-20 d-flex flex-column container min-vh-100 foreground">
+			<div class="row align-items-center justify-content-center justify-content-lg-between my-auto">
+				<div class="col-lg-6 col-xl-5 text-center text-lg-start foreground mb-10 mb-lg-0">
+					<img src="assets/nutstash_anom.png" style="margin-left: -4rem;">
+					<h1 class="display-1 lh-sm">Hide<br />your Nuts.</h1>
+					<p class="lead text-secondary my-4 fw-lg-75">Nutstash is an ecash wallet for your
+						browser on any device. It uses the <a href="https://cashu.space" target="_blank">cashu</a> ecash
+						protocol to offer a digital cash-like experience.</p>
+					<div class="row justify-content-center justify-content-lg-start g-1">
+						<div class="col-auto">
+							<a href="https://alpha.Nutstash.app" target="_blank" class="btn btn-pink rounded-pill">
+								<i class="bi bi-app-indicator"></i>
+								<sub>Ready?</sub><br />
+								Try Nutstash
+							</a>
+						</div>
+						<div class="col-auto">
+							<a href="https://github.com/gandlafbtc/nutstash-wallet" target="_blank"
+								class="btn btn-outline-purple rounded-pill">
+								<i class="bi bi-terminal"></i>
+								<sub>Are you a Dev?</sub><br />
+								Check the Code
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 position-relative">
+					<div class="card equal-2-1 equal-lg-1-1 overflow-visible level-1">
+						<div class="card-wrap">
+							<img class="img-fluid aos-init aos-animate" src="assets/app-1.png" alt="Image"
+								data-aos="fade-up" data-aos-delay="200">
+						</div>
+					</div>
+					<img class="position-absolute top-50 start-50 translate-middle level-0" src="assets/shadow.svg"
+						alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="py-5 bg-purple inverted overflow-hidden">
+		<div class="container foreground">
+			<div class="row justify-content-center">
+				<div class="col-lg-2">
+					<a href="https://bobspace.net" target="_blank">
+						<img src="assets/03.svg" title="BOB Space" alt="BOB Space">
+					</a>
+				</div>
+				<div class="col-lg-2">
+					<a href="https://bolt.fun/project/nutstash" target="_blank">
+						<img src="assets/02.svg" title="BOLT FUN" alt="BOLT FUN">
+					</a>
+				</div>
+				<div class="col-lg-2">
+					<a href="https://stacker.news/search/r/supratic?q=nutstash&what=posts&sort=match" target="_blank">
+						<img src="assets/01.svg" title="Stacker.News" alt="Stacker.News">
+					</a>
+				</div>
+				<div class="col-lg-2">
+					<a href="https://geyser.fund/project/nutstashapp" target="_blank">
+						<img src="assets/08.svg" title="Geyser Fund" alt="Geyser Fund">
+					</a>
+				</div>
+				<div class="col-lg-2">
+					<a href="https://www.producthunt.com/products/nutstash-hide-your-nuts" target="_blank">
+						<img src="assets/07.svg" title="Product Hunt" alt="Product Hunt">
+					</a>
+				</div>
+				<div class="col-lg-2">
+					<a href="https://t.me/+DRy-rSe5wQtlYTk1" target="_blank">
+						<img src="assets/06.svg" title="Telegram" alt="Telegram">
+					</a>
+				</div>
+			</div>
+	</section>
+
+	<section id="why" class="py-15 py-xl-20 border-top inverted">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-10">
+					<span class="eyebrow text-red mb-2">Why Nutstash?</span>
+					<h3 class="font-weight-bold mb-4 text-ingradient">No accounts, no email. Just the gateway to
+						seamless, immediate, ecash. With <u>Nutstash</u>, you can send and receive sats (satoshis)
+						instantly as ecash. We call them <em>nuts</em>.</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- split screen -->
+	<section class="py-20 mx-lg-3 inverted overflow-hidden bg-red">
+		<div class="container">
+			<div class="row justify-content-center justify-content-lg-between ">
+				<div class="col-lg-6 col-xl-5 text-white order-lg-2 mb-5 mb-lg-0">
+					<span class="eyebrow text-muted mb-2">Dress Up your Sats</span>
+					<h2 class="mb-5">Your ecash will be stored locally on your device.</h2>
+					<ul class="list-group list-group-minimal">
+						<li class="list-group-item d-flex align-items-start">
+							<div class="icon-box bg-light rounded-circle me-2">
+								<img src="assets/shades.svg" width="42">
+							</div>
+							<strong>Ecash</strong><br />
+							Nutstash is an ecash wallet with a lightning interface that uses the Cashu ecash protocol.
+						</li>
+						<li class="list-group-item d-flex align-items-start">
+							<div class="icon-box bg-light rounded-circle me-2">
+								<img src="assets/stache.svg" width="42">
+							</div>
+							<strong>Transact freely</strong><br />
+							Ecash works without accounts. Cashu tokens are bearer assets, just like physical cash.
+							Tokens are stored locally on your Nutstash wallet.
+						</li>
+						<li class="list-group-item d-flex align-items-start">
+							<div class="icon-box bg-light  rounded-circle me-2">
+								<img src="assets/hat.svg" width="42">
+							</div>
+							<strong>Choose your custodians</strong><br />
+							Wisely choose your custodians. Nutstash is just a wallet. The custodian of your sats are the
+							mints you connect to.
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-5 order-lg-1 aos-init" data-aos="fade-up">
+					<div class="card equal-2-1 equal-lg-1-1 overflow-visible">
+						<div class="card-wrap">
+							<img class="img-fluid test layer-1" src="assets/app-2.png" alt="Nutstash Wallet">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- content -->
+	<section id="fea" class="py-20">
+		<div class="container">
+			<div class="row align-items-center justify-content-center justify-content-lg-between">
+				<div class="col-lg-6 col-xl-5 mb-5 mb-lg-0 inverted">
+					<h2 class="mb-5">Stashing Features</h2>
+					<p>Nutstash wallet comes with a suite features</p>
+					<ul class="list-group list-group-minimal">
+						<li class="list-group-item d-flex align-items-center">
+							<span class="display-2 fw-bold me-3 text-purple w-10"><i
+									class="bi bi-bank2 fa-xs"></i></span> <strong class="text-red">Choose your
+								custodians</strong><br />
+							Nutstash lets you connect to multiple Cashu mints. They will custody your sats and issue the
+							ecash.
+						</li>
+						<li class="list-group-item d-flex align-items-center">
+							<span class="display-2 fw-bold me-3 text-purple w-10"><i
+									class="bi bi-cash-coin fa-xs"></i></span> <strong class="text-red">Send and receive
+								ecash</strong><br />
+							Easily send and receive Cashu ecash tokens.
+						</li>
+						<li class="list-group-item d-flex align-items-center">
+							<span class="display-2 fw-bold me-3 text-purple w-10"><i
+									class="bi bi-lightning-charge-fill fa-xs"></i></span> <strong class="text-red">Pay
+								and receive via Lightning</strong><br />
+							Pay lighting invoices with ecash. Receive Lightning sats as ecash.
+						</li>
+						<li class="list-group-item d-flex align-items-center">
+							<span class="display-2 fw-bold me-3 text-purple w-10"><i
+									class="bi bi-envelope-open-heart fa-xs"></i></span> <strong class="text-red">Send
+								and receive sats via nostr</strong><br />
+							Activate Nostr in the settings in order to send and receive tokens via private messages. You
+							can generate throwaway keys or link up your Nostr handle via an extension like alby.
+						</li>
+						<li class="list-group-item d-flex align-items-center">
+							<span class="display-2 fw-bold me-3 text-purple w-10"><i
+									class="bi bi-arrow-left-right fa-xs"></i></span> <strong class="text-red">Swap
+								between mints</strong><br />
+							Seamlessly exchange Cashu tokens from one mint to an other.
+						</li>
+						<li class="list-group-item d-flex align-items-center">
+							<span class="display-2 fw-bold me-3 text-purple w-10"><i
+									class="bi bi-qr-code-scan fa-xs"></i></span> <strong class="text-red">Air-gapped
+								token transmission</strong><br />
+							Send peer-to-peer ecash without leaving a trace by using Nutstashs animated QR codes.
+						</li>
+						<li class="list-group-item d-flex align-items-center">
+							<span class="display-2 fw-bold me-3 text-purple w-10"><i
+									class="bi bi-recycle fa-xs"></i></span> <strong class="text-red">Restore from
+								seed</strong><br />
+							Use a bip32/bip39 seed phrase to create recoverable ecash.
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-5 aos-init" data-aos="fade-up">
+					<a href="https://wallet.nutstash.app" class="card card-arrow bg-white text-red-hover">
+						<figure class="media equal-1-1">
+							<span style="background-image: url('assets/app-1.jpg')">
+							</span>
+						</figure>
+						<div class="card-body">
+							<h5 class="card-title">Experience ecash.</h5>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- testimonial -->
+	<section class="py-20 border-top inverted">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<blockquote class="blockquote">
+						<span class="lh-1 fs-1 mb-0">"</span>
+						<p class="fs-3 mb-4"><span class="text-purple">Civilization is the progress toward a society of
+								privacy.</span>
+							<span class="text-pink">The savage's whole existence is public, ruled by the laws of his
+								tribe. </span>
+							Civilization is the process of setting man free from men.
+						</p>
+						<footer class="blockquote-footer">
+							<span class="d-block lh-1 text-black">Valerie Doe</span>
+							<small>-- Ayn Rand</small>
+						</footer>
+					</blockquote>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="py-20 bg-purple inverted overflow-hidden">
+		<div class="container foreground">
+			<div class="row justify-content-center mb-8">
+				<div class="col-lg-8 text-center">
+					<h2 class="text-ingradient">The Progressive <span class="d-lg-block">Web App</span></h2>
+					<p class="lead">Install Nutstash as a PWA on your device via browser. </p>
+					<small class="text-grey">(Available on Mobile, Tablet, Desktop and any other device!)</small>
+				</div>
+			</div>
+			<div class="row g-5 justify-content-center justify-content-lg-between align-items-center">
+				<div class="col-lg-4 order-lg-1 aos-init" data-aos="fade-right">
+					<ul class="list-unstyled text-center text-lg-end pe-lg-5">
+						<li>
+							<p class="fs-lg text-muted"><span class="text-white">Open Mobile Browser <i
+										class="bi bi-1-square"></i></span> <br />
+								Using your mobile native internet browser, open an existing or create a new wallet at
+								<code>https://wallet.nutstash.app</code>.
+							</p>
+						</li>
+						<li class="mt-5">
+							<p class="fs-lg text-muted"><span class="text-white">Dive Browser Options <i
+										class="bi bi-2-square"></i></span> <br />
+								Using your internet browser (on mobile, use the OS native browser) go to the browser
+								settings.
+							</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-4 order-lg-3 aos-init" data-aos="fade-left">
+					<ul class="list-unstyled text-center text-lg-start ps-lg-5">
+						<li>
+							<p class="fs-lg text-muted"><span class="text-white"><i class="bi bi-3-square"></i> Save to
+									Home Screen</span> <br />
+								Look for an "install" or “Save to Home Screen” option and the nutstash PWA will appears.
+							</p>
+						</li>
+						<li class="mt-5">
+							<p class="fs-lg text-muted"><span class="text-white"><i class="bi bi-4-square"></i> Offline
+									Access</span> <br />
+								Once Nutstash is saved in your device home screen, you’ll be able to access your wallet
+								anytime. You can even send tokens peer-to-peer when you are offline
+							</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-4 order-lg-2">
+					<div class="card equal-2-1 equal-lg-1-1 overflow-visible">
+						<div class="card-wrap">
+							<img class="img-fluid aos-init" src="assets/app-3.png" alt="Image" data-aos="fade-up"
+								data-aos-delay="100">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<img class="position-absolute top-100 start-50 translate-middle" src="assets/pattern-lg-light.svg" alt="Image">
+	</section>
+	</section>
+	<section class="py-15 py-xl-20 bg-black inverted">
+		<div class="container">
+			<div class="row justify-content-center my-auto">
+				<div class="col-lg-8 text-center">
+					<h2 class="mb-5 text-ingradient">Yesss, you can also <span class="d-lg-block"><u>Self host</u>
+							it!</span></h2>
+					<p class="lead"> Nutstash can easily be self hosted, so you know your code gets shipped safely.</p>
+					<small class="text-grey">In this case too, we 💜 offering your multiuple options...</small>
+					<div class="row mt-3 mb-5 justify-content-center g-1">
+						<div class="col-auto">
+							<a href="https://apps.umbrel.com/app/nutstash-wallet" target="_blank"
+								class="btn btn-pink rounded-pill">
+								For <i class="bi bi-umbrella-fill fs-6" alt="Chrome"></i> <strong>Umbrel</strong>
+							</a>
+						</div>
+						<div class="col-auto">
+							<a href="https://github.com/gandlafbtc/nutstash-wallet/pkgs/container/nutstash-wallet"
+								target="_blank" class="btn btn-outline-info rounded-pill">
+								<i class="bi bi-box fs-6" alt="Docker"></i> <strong>Docker</strong> Container
+							</a>
+						</div>
+						<p class="mt-5 mb-0">Or run it from the source locally, just </p>
+						<!-- p><code><span class="text-grey">$</span> git clone https://github.com/gandlafbtc/nutstash-wallet <a href="#" class="link-pink"><i class="bi bi-clipboard"></i></a></code></p-->
+						<small class="text-grey font-monospace">git clone
+							https://github.com/gandlafbtc/nutstash-wallet</small>
+						<img class="img-fluid mx-auto d-block" src="assets/nutstash_npm.png"
+							alt="git clone https://github.com/gandlafbtc/nutstash-wallet"
+							title="git clone https://github.com/gandlafbtc/nutstash-wallet">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="py-15 py-xl-20 bg-gradient">
+
+		<div class="container align-middle text-center">
+			<div class="row">
+				<div class="col">
+				</div>
+				<div class="col">
+				</div>
+				<div class="col">
+					<svg width="51.797825mm" height="68.43071mm" viewBox="0 0 51.797825 68.43071" version="1.1"
+						id="svg5" inkscape:version="1.1.2 (0a00cf5, 2022-02-04)" sodipodi:docname="anon-sqirrel-1.svg"
+						xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+						xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+						xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+						<sodipodi:namedview id="namedview7" pagecolor="#505050" bordercolor="#eeeeee" borderopacity="1"
+							inkscape:pageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0"
+							inkscape:document-units="mm" showgrid="false" inkscape:zoom="1.1189113"
+							inkscape:cx="81.329056" inkscape:cy="153.72085" inkscape:window-width="1440"
+							inkscape:window-height="838" inkscape:window-x="0" inkscape:window-y="0"
+							inkscape:window-maximized="1" inkscape:current-layer="layer1" fit-margin-top="0"
+							fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" />
+						<defs id="defs2" />
+						<g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1"
+							transform="translate(-82.339556,-114.18971)">
+							<g style="fill:none" id="g899"
+								transform="matrix(0.26458333,0,0,0.26458333,81.749882,128.88372)">
+								<path
+									d="m 168.289,112.115 c 0,28.571 -53.506,69.386 -69.9692,69.386 -16.4633,0 -69.9692,-40.815 -69.9692,-69.386 0,-40.5753 29.0532,-61.2233 69.9692,-61.2233 40.9162,0 69.9692,20.648 69.9692,61.2233 z"
+									fill="#f29d38" id="path824" />
+								<path
+									d="m 135.726,28.7474 c 6.834,-11.8372 32.689,-19.45649 37.641,-16.5977 4.951,2.8587 11.281,29.0598 4.446,40.897 -9.705,16.8106 -23.382,20.3204 -35.688,13.2156 C 129.819,59.1575 126.02,45.558 135.726,28.7474 Z"
+									fill="#f29d38" id="path826" />
+								<path
+									d="M 16.3797,52.8652 C 9.63511,41.1833 15.8814,15.3256 20.7679,12.5044 25.6545,9.68312 51.171,17.2025 57.9156,28.8845 67.4939,45.4747 63.7448,58.896 51.6003,65.9076 39.4558,72.9192 25.9581,69.4555 16.3797,52.8652 Z"
+									fill="#f29d38" id="path828" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="m 99.6548,86.4777 c 2.0302,0 3.6762,1.8963 3.6762,4.2355 v 59.2978 c 0,2.34 -1.646,4.236 -3.6762,4.236 -2.0305,0 -3.6765,-1.896 -3.6765,-4.236 V 90.7132 c 0,-2.3392 1.646,-4.2355 3.6765,-4.2355 z"
+									fill="#90665e" id="path830" />
+								<path
+									d="m 116.199,175.31 c 0,4.552 -7.407,8.242 -16.5442,8.242 -9.137,0 -16.5441,-3.69 -16.5441,-8.242 0,-4.552 7.4071,-8.242 16.5441,-8.242 9.1372,0 16.5442,3.69 16.5442,8.242 z"
+									fill="#000000" id="path832" />
+								<path
+									d="m 141.934,72.7407 c 0,9.6099 -18.929,17.4002 -42.2792,17.4002 -23.3502,0 -42.2793,-7.7903 -42.2793,-17.4002 0,-9.6099 18.9291,-17.4002 42.2793,-17.4002 23.3502,0 42.2792,7.7903 42.2792,17.4002 z"
+									fill="#000000" id="path834" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="m 105.205,59.0352 c 0.607,0.0995 0.996,0.4143 0.93,0.751 l -1.97,9.9807 h 5.96 c 0.817,0 1.617,0.1551 2.078,0.5377 0.42,0.3481 0.39,0.7552 0.118,1.0538 l -0.143,0.1638 c -0.011,0.0121 -0.022,0.024 -0.034,0.0358 L 97.4872,86.1049 c -0.3003,0.2981 -0.9541,0.4412 -1.5605,0.3415 -0.6063,-0.0996 -0.9957,-0.4142 -0.9293,-0.7508 l 1.9699,-9.9807 h -5.9601 c -0.7378,0 -1.8484,-0.1073 -2.259,-0.6874 -0.1751,-0.2472 -0.1329,-0.484 -0.0569,-0.6537 0.0773,-0.1726 0.2133,-0.33 0.3497,-0.4602 0.1009,-0.0962 0.1622,-0.154 0.197,-0.1862 0.0077,-0.0071 0.0156,-0.0143 0.0233,-0.0212 L 103.644,59.3779 c 0.3,-0.2986 0.954,-0.4421 1.561,-0.3427 z"
+									fill="#ffffff" id="path836" />
+								<path
+									d="m 140.285,41.1586 c 3.174,-5.4791 12.799,-10.3787 14.365,-9.4779 1.566,0.9008 2.119,11.6555 -1.055,17.1346 -4.509,7.7811 -9.567,10.1511 -13.458,7.9124 -3.892,-2.2387 -4.361,-7.7881 0.148,-15.5691 z"
+									fill="#90665e" id="path838" />
+								<path
+									d="M 37.4234,47.7058 C 34.2902,42.2986 34.8366,31.6849 36.382,30.7959 c 1.5453,-0.889 11.0435,3.9464 14.1767,9.3536 4.4495,7.6791 3.9867,13.1556 0.1462,15.365 -3.8406,2.2094 -8.832,-0.1296 -13.2815,-7.8087 z"
+									fill="#90665e" id="path840" />
+								<path
+									d="M 198,98.7942 H 2.22869 V 120.773 H 9.5816 v 7.327 h 8.272 v 7.326 h 7.3529 v 7.327 h 45.0366 v -7.327 H 77.596 V 128.1 h 7.353 v -7.327 h 8.272 v -7.326 h 13.787 v 7.326 h 8.272 v 7.327 h 7.353 v 7.326 h 7.353 v 7.327 h 45.955 v -7.327 h 7.353 V 128.1 h 7.353 v -7.327 H 198 Z"
+									fill="#000000" id="path842" />
+								<path d="m 40.0783,120.83 h -7.5188 v -7.271 h 7.5188 z" fill="#ffffff" id="path844" />
+								<path d="m 32.5865,128.096 h -7.5188 v -7.272 h 7.5188 z" fill="#ffffff" id="path846" />
+								<path d="m 47.6242,128.096 h -7.5188 v -7.272 h 7.5188 z" fill="#ffffff" id="path848" />
+								<path d="m 130.331,120.83 h -7.519 v -7.271 h 7.519 z" fill="#ffffff" id="path850" />
+								<path d="m 145.368,120.83 h -7.518 v -7.271 h 7.518 z" fill="#ffffff" id="path852" />
+								<path d="m 145.368,135.369 h -7.518 v -7.271 h 7.518 z" fill="#ffffff" id="path854" />
+								<path d="m 160.406,135.369 h -7.518 v -7.271 h 7.518 z" fill="#ffffff" id="path856" />
+								<path d="M 55.1428,135.369 H 47.624 v -7.271 h 7.5188 z" fill="#ffffff" id="path858" />
+								<path d="m 25.0675,120.83 h -7.5189 v -7.271 h 7.5189 z" fill="#ffffff" id="path860" />
+								<path d="m 40.1053,135.369 h -7.5188 v -7.271 h 7.5188 z" fill="#ffffff" id="path862" />
+								<path d="m 137.85,128.096 h -7.519 v -7.272 h 7.519 z" fill="#ffffff" id="path864" />
+								<path d="m 152.887,128.096 h -7.518 v -7.272 h 7.518 z" fill="#ffffff" id="path866" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="m 183.488,57.6848 c -4.654,8.0317 -10.271,13.8224 -16.548,17.1945 4.259,6.9072 7.187,14.8971 8.605,23.9147 h -8.671 c -1.436,-8.0775 -4.245,-15.0493 -8.19,-20.9568 -0.056,0.0107 -0.112,0.0213 -0.169,0.0317 -1.875,-2.8197 -4.011,-5.4135 -6.386,-7.7806 9.083,0.8172 18.125,-4.2752 25.091,-16.2968 6.733,-11.6199 0.498,-37.3402 -4.381,-40.1465 -4.878,-2.8062 -30.351,4.6732 -37.084,16.2931 -6.326,10.9185 -6.828,20.4571 -2.932,27.6821 -9.813,-3.9558 -21.293,-5.9446 -33.9201,-5.9446 -14.5373,0 -27.5547,2.6362 -38.2576,7.8753 C 65.8769,52.2136 65.9929,41.9737 59.0968,30.0724 52.5593,18.7898 28.1195,11.4626 22.7477,13.8668 c -0.1342,0.0187 -0.2301,0.0376 -0.2929,0.0513 -0.0434,0.0474 -0.1079,0.1208 -0.1915,0.2276 C 17.4882,17.5837 11.639,42.3318 18.1758,53.613 26.0433,67.1909 36.5948,71.812 46.82,68.9846 38.7959,76.4995 33.3087,86.4461 31.0823,98.794 h -7.557 C 24.8458,90.3955 27.476,82.8884 31.2714,76.3172 23.7491,73.3105 17.0506,67.0075 11.649,57.6855 9.29716,53.6267 8.22268,48.6318 7.87581,43.6727 7.52526,38.6612 7.89633,33.3664 8.68565,28.4692 9.47438,23.5757 10.7036,18.9381 12.1476,15.2364 c 0.7201,-1.846 1.5297,-3.5528 2.421,-4.9729 0.827,-1.31759 1.9933,-2.83046 3.5947,-3.75167 1.6014,-0.92121 3.4995,-1.17124 5.0581,-1.22603 1.6799,-0.05905 3.5683,0.0957 5.5328,0.39733 3.9394,0.60482 8.5847,1.86291 13.2323,3.62908 4.6512,1.76749 9.4387,4.09469 13.6192,6.90289 4.1368,2.7789 7.9409,6.2035 10.2927,10.2623 4.1074,7.0885 6.3225,13.9513 6.6435,20.3478 8.335,-2.1554 17.4087,-3.2166 26.993,-3.2166 8.1191,0 15.8711,0.7615 23.1181,2.3045 0.477,-6.1353 2.672,-12.6834 6.585,-19.4363 2.352,-4.0589 6.156,-7.4835 10.293,-10.2623 4.181,-2.8083 8.968,-5.1355 13.619,-6.90297 4.648,-1.76617 9.293,-3.02426 13.233,-3.62908 1.964,-0.30163 3.852,-0.45638 5.532,-0.39733 1.559,0.05479 3.457,0.30481 5.058,1.22603 1.602,0.92121 2.768,2.43408 3.595,3.75165 0.891,1.4201 1.701,3.1269 2.421,4.9729 1.444,3.7017 2.673,8.3393 3.462,13.2328 0.789,4.8972 1.16,10.192 0.81,15.2035 -0.347,4.9591 -1.421,9.954 -3.773,14.0128 z M 35.562,142.752 c 5.2424,6.921 11.6396,13.618 18.3393,19.626 8.2093,7.362 16.994,13.797 24.8872,18.419 3.9454,2.311 7.7312,4.205 11.1597,5.534 3.358,1.301 6.6742,2.179 9.5867,2.179 2.9121,0 6.2291,-0.878 9.5871,-2.179 3.428,-1.329 7.214,-3.223 11.159,-5.534 7.894,-4.622 16.678,-11.057 24.888,-18.419 6.699,-6.008 13.096,-12.705 18.339,-19.626 h -10.657 c -12.074,14.198 -29.051,27.103 -41.633,33.287 -1.859,0.943 -3.601,1.729 -5.197,2.348 -2.957,1.146 -5.121,1.6 -6.4861,1.6 -0.4118,0 -0.8964,-0.042 -1.4537,-0.131 -11.1433,-0.828 -36.6821,-17.768 -53.126,-37.104 z"
+									fill="#000000" id="path868" />
+							</g>
+							<g inkscape:label="Layer 1" id="layer1-0"
+								transform="matrix(0.6341447,0,0,0.59914498,61.430989,67.541923)">
+								<path id="path3466" style="stroke-width:0.999999"
+									d="m 193.05469,294.26367 v 8 h -8 -8 -8 -8 v 8 8 8 8 8 8 8 h 8 v 8 8 8 8 8 8 h 8 v 8 8 8 8 8 8 h 8 8 v 8 h 8 8 8 v 8 h 8 8 8 8 8 8 v 8 h 8 8 8 8 8 v -8 h 8 8 8 8 8 v -8 h 8 8 8 v -8 -8 -8 -8 h 8 v -8 -8 -8 -8 -8 -8 -8 -8 h 8 v -8 -8 -8 -8 -8 -8 -8 -8 h -8 -8 -8 -8 -8 v -8 h -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 z m -32,176 v 8 h -8 -8 v 8 h -8 v 8 8 8 h 8 v 8 h 8 8 v 8 h 8 8 8 v 8 h 8 8 8 8 8 v 8 h 8 8 8 8 8 8 8 8 8 8 8 8 8 v -8 h 8 8 8 8 8 v -8 h 8 8 8 v -8 h 8 8 v -8 h 8 v -8 -8 -8 h -8 v -8 h -8 -8 v -8 h -8 -8 -8 v 8 8 h -8 v 8 h -8 -8 -8 v 8 h -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 v -8 h -8 -8 -8 v -8 h -8 v -8 h -8 v -8 h -8 z"
+									transform="scale(0.26458333)" />
+								<path id="path4504" style="fill:#f4f4f6;fill-opacity:1;stroke-width:0.999999"
+									d="m 177.05469,454.26367 v 8 8 8 h 8 v 8 h 8 v 8 h 8 8 8 v 8 h 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 v -8 h 8 8 8 v -8 h 8 v -8 -8 -8 h -8 -8 -8 v 8 h -8 -8 -8 -8 -8 v 8 h -8 -8 -8 -8 -8 v -8 h -8 -8 -8 -8 -8 -8 v -8 h -8 -8 -8 v -8 h -8 z"
+									transform="scale(0.26458333)" />
+							</g>
+						</g>
+					</svg>
+				</div>
+				<div class="col">
+				</div>
+				<div class="col">
+				</div>
+			</div>
+
+			<div class="row align-middles">
+				<div class="col">
+				</div>
+				<div class="col">
+					<svg width="51.797825mm" height="68.43071mm" viewBox="0 0 51.797825 68.43071" version="1.1"
+						id="svg5" inkscape:version="1.1.2 (0a00cf5, 2022-02-04)" sodipodi:docname="anon-sqirrel-2.svg"
+						xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+						xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+						xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+						<sodipodi:namedview id="namedview7" pagecolor="#505050" bordercolor="#eeeeee" borderopacity="1"
+							inkscape:pageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0"
+							inkscape:document-units="mm" showgrid="false" inkscape:zoom="1.1189113"
+							inkscape:cx="81.329056" inkscape:cy="153.72085" inkscape:window-width="1440"
+							inkscape:window-height="838" inkscape:window-x="0" inkscape:window-y="0"
+							inkscape:window-maximized="1" inkscape:current-layer="layer1" fit-margin-top="0"
+							fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" />
+						<defs id="defs2" />
+						<g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1"
+							transform="translate(-82.339556,-114.18971)">
+							<g style="fill:none" id="g899"
+								transform="matrix(0.26458333,0,0,0.26458333,81.749882,128.88372)">
+								<path
+									d="m 168.289,112.115 c 0,28.571 -53.506,69.386 -69.9692,69.386 -16.4633,0 -69.9692,-40.815 -69.9692,-69.386 0,-40.5753 29.0532,-61.2233 69.9692,-61.2233 40.9162,0 69.9692,20.648 69.9692,61.2233 z"
+									fill="#f29d38" id="path824" />
+								<path
+									d="m 135.726,28.7474 c 6.834,-11.8372 32.689,-19.45649 37.641,-16.5977 4.951,2.8587 11.281,29.0598 4.446,40.897 -9.705,16.8106 -23.382,20.3204 -35.688,13.2156 C 129.819,59.1575 126.02,45.558 135.726,28.7474 Z"
+									fill="#f29d38" id="path826" />
+								<path
+									d="M 16.3797,52.8652 C 9.63511,41.1833 15.8814,15.3256 20.7679,12.5044 25.6545,9.68312 51.171,17.2025 57.9156,28.8845 67.4939,45.4747 63.7448,58.896 51.6003,65.9076 39.4558,72.9192 25.9581,69.4555 16.3797,52.8652 Z"
+									fill="#f29d38" id="path828" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="m 99.6548,86.4777 c 2.0302,0 3.6762,1.8963 3.6762,4.2355 v 59.2978 c 0,2.34 -1.646,4.236 -3.6762,4.236 -2.0305,0 -3.6765,-1.896 -3.6765,-4.236 V 90.7132 c 0,-2.3392 1.646,-4.2355 3.6765,-4.2355 z"
+									fill="#90665e" id="path830" />
+								<path
+									d="m 116.199,175.31 c 0,4.552 -7.407,8.242 -16.5442,8.242 -9.137,0 -16.5441,-3.69 -16.5441,-8.242 0,-4.552 7.4071,-8.242 16.5441,-8.242 9.1372,0 16.5442,3.69 16.5442,8.242 z"
+									fill="#000000" id="path832" />
+								<path
+									d="m 141.934,72.7407 c 0,9.6099 -18.929,17.4002 -42.2792,17.4002 -23.3502,0 -42.2793,-7.7903 -42.2793,-17.4002 0,-9.6099 18.9291,-17.4002 42.2793,-17.4002 23.3502,0 42.2792,7.7903 42.2792,17.4002 z"
+									fill="#000000" id="path834" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="m 105.205,59.0352 c 0.607,0.0995 0.996,0.4143 0.93,0.751 l -1.97,9.9807 h 5.96 c 0.817,0 1.617,0.1551 2.078,0.5377 0.42,0.3481 0.39,0.7552 0.118,1.0538 l -0.143,0.1638 c -0.011,0.0121 -0.022,0.024 -0.034,0.0358 L 97.4872,86.1049 c -0.3003,0.2981 -0.9541,0.4412 -1.5605,0.3415 -0.6063,-0.0996 -0.9957,-0.4142 -0.9293,-0.7508 l 1.9699,-9.9807 h -5.9601 c -0.7378,0 -1.8484,-0.1073 -2.259,-0.6874 -0.1751,-0.2472 -0.1329,-0.484 -0.0569,-0.6537 0.0773,-0.1726 0.2133,-0.33 0.3497,-0.4602 0.1009,-0.0962 0.1622,-0.154 0.197,-0.1862 0.0077,-0.0071 0.0156,-0.0143 0.0233,-0.0212 L 103.644,59.3779 c 0.3,-0.2986 0.954,-0.4421 1.561,-0.3427 z"
+									fill="#ffffff" id="path836" />
+								<path
+									d="m 140.285,41.1586 c 3.174,-5.4791 12.799,-10.3787 14.365,-9.4779 1.566,0.9008 2.119,11.6555 -1.055,17.1346 -4.509,7.7811 -9.567,10.1511 -13.458,7.9124 -3.892,-2.2387 -4.361,-7.7881 0.148,-15.5691 z"
+									fill="#90665e" id="path838" />
+								<path
+									d="M 37.4234,47.7058 C 34.2902,42.2986 34.8366,31.6849 36.382,30.7959 c 1.5453,-0.889 11.0435,3.9464 14.1767,9.3536 4.4495,7.6791 3.9867,13.1556 0.1462,15.365 -3.8406,2.2094 -8.832,-0.1296 -13.2815,-7.8087 z"
+									fill="#90665e" id="path840" />
+								<path
+									d="M 198,98.7942 H 2.22869 V 120.773 H 9.5816 v 7.327 h 8.272 v 7.326 h 7.3529 v 7.327 h 45.0366 v -7.327 H 77.596 V 128.1 h 7.353 v -7.327 h 8.272 v -7.326 h 13.787 v 7.326 h 8.272 v 7.327 h 7.353 v 7.326 h 7.353 v 7.327 h 45.955 v -7.327 h 7.353 V 128.1 h 7.353 v -7.327 H 198 Z"
+									fill="#000000" id="path842" />
+								<path d="m 40.0783,120.83 h -7.5188 v -7.271 h 7.5188 z" fill="#ffffff" id="path844" />
+								<path d="m 32.5865,128.096 h -7.5188 v -7.272 h 7.5188 z" fill="#ffffff" id="path846" />
+								<path d="m 47.6242,128.096 h -7.5188 v -7.272 h 7.5188 z" fill="#ffffff" id="path848" />
+								<path d="m 130.331,120.83 h -7.519 v -7.271 h 7.519 z" fill="#ffffff" id="path850" />
+								<path d="m 145.368,120.83 h -7.518 v -7.271 h 7.518 z" fill="#ffffff" id="path852" />
+								<path d="m 145.368,135.369 h -7.518 v -7.271 h 7.518 z" fill="#ffffff" id="path854" />
+								<path d="m 160.406,135.369 h -7.518 v -7.271 h 7.518 z" fill="#ffffff" id="path856" />
+								<path d="M 55.1428,135.369 H 47.624 v -7.271 h 7.5188 z" fill="#ffffff" id="path858" />
+								<path d="m 25.0675,120.83 h -7.5189 v -7.271 h 7.5189 z" fill="#ffffff" id="path860" />
+								<path d="m 40.1053,135.369 h -7.5188 v -7.271 h 7.5188 z" fill="#ffffff" id="path862" />
+								<path d="m 137.85,128.096 h -7.519 v -7.272 h 7.519 z" fill="#ffffff" id="path864" />
+								<path d="m 152.887,128.096 h -7.518 v -7.272 h 7.518 z" fill="#ffffff" id="path866" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="m 183.488,57.6848 c -4.654,8.0317 -10.271,13.8224 -16.548,17.1945 4.259,6.9072 7.187,14.8971 8.605,23.9147 h -8.671 c -1.436,-8.0775 -4.245,-15.0493 -8.19,-20.9568 -0.056,0.0107 -0.112,0.0213 -0.169,0.0317 -1.875,-2.8197 -4.011,-5.4135 -6.386,-7.7806 9.083,0.8172 18.125,-4.2752 25.091,-16.2968 6.733,-11.6199 0.498,-37.3402 -4.381,-40.1465 -4.878,-2.8062 -30.351,4.6732 -37.084,16.2931 -6.326,10.9185 -6.828,20.4571 -2.932,27.6821 -9.813,-3.9558 -21.293,-5.9446 -33.9201,-5.9446 -14.5373,0 -27.5547,2.6362 -38.2576,7.8753 C 65.8769,52.2136 65.9929,41.9737 59.0968,30.0724 52.5593,18.7898 28.1195,11.4626 22.7477,13.8668 c -0.1342,0.0187 -0.2301,0.0376 -0.2929,0.0513 -0.0434,0.0474 -0.1079,0.1208 -0.1915,0.2276 C 17.4882,17.5837 11.639,42.3318 18.1758,53.613 26.0433,67.1909 36.5948,71.812 46.82,68.9846 38.7959,76.4995 33.3087,86.4461 31.0823,98.794 h -7.557 C 24.8458,90.3955 27.476,82.8884 31.2714,76.3172 23.7491,73.3105 17.0506,67.0075 11.649,57.6855 9.29716,53.6267 8.22268,48.6318 7.87581,43.6727 7.52526,38.6612 7.89633,33.3664 8.68565,28.4692 9.47438,23.5757 10.7036,18.9381 12.1476,15.2364 c 0.7201,-1.846 1.5297,-3.5528 2.421,-4.9729 0.827,-1.31759 1.9933,-2.83046 3.5947,-3.75167 1.6014,-0.92121 3.4995,-1.17124 5.0581,-1.22603 1.6799,-0.05905 3.5683,0.0957 5.5328,0.39733 3.9394,0.60482 8.5847,1.86291 13.2323,3.62908 4.6512,1.76749 9.4387,4.09469 13.6192,6.90289 4.1368,2.7789 7.9409,6.2035 10.2927,10.2623 4.1074,7.0885 6.3225,13.9513 6.6435,20.3478 8.335,-2.1554 17.4087,-3.2166 26.993,-3.2166 8.1191,0 15.8711,0.7615 23.1181,2.3045 0.477,-6.1353 2.672,-12.6834 6.585,-19.4363 2.352,-4.0589 6.156,-7.4835 10.293,-10.2623 4.181,-2.8083 8.968,-5.1355 13.619,-6.90297 4.648,-1.76617 9.293,-3.02426 13.233,-3.62908 1.964,-0.30163 3.852,-0.45638 5.532,-0.39733 1.559,0.05479 3.457,0.30481 5.058,1.22603 1.602,0.92121 2.768,2.43408 3.595,3.75165 0.891,1.4201 1.701,3.1269 2.421,4.9729 1.444,3.7017 2.673,8.3393 3.462,13.2328 0.789,4.8972 1.16,10.192 0.81,15.2035 -0.347,4.9591 -1.421,9.954 -3.773,14.0128 z M 35.562,142.752 c 5.2424,6.921 11.6396,13.618 18.3393,19.626 8.2093,7.362 16.994,13.797 24.8872,18.419 3.9454,2.311 7.7312,4.205 11.1597,5.534 3.358,1.301 6.6742,2.179 9.5867,2.179 2.9121,0 6.2291,-0.878 9.5871,-2.179 3.428,-1.329 7.214,-3.223 11.159,-5.534 7.894,-4.622 16.678,-11.057 24.888,-18.419 6.699,-6.008 13.096,-12.705 18.339,-19.626 h -10.657 c -12.074,14.198 -29.051,27.103 -41.633,33.287 -1.859,0.943 -3.601,1.729 -5.197,2.348 -2.957,1.146 -5.121,1.6 -6.4861,1.6 -0.4118,0 -0.8964,-0.042 -1.4537,-0.131 -11.1433,-0.828 -36.6821,-17.768 -53.126,-37.104 z"
+									fill="#000000" id="path868" />
+							</g>
+							<path id="path1964" style="stroke-width:0.147616"
+								d="m 91.574144,173.17302 v 1.18092 h -1.18092 v 1.18093 1.18092 1.18093 1.18092 h 1.18092 v 1.18093 h 1.18093 v 1.18093 h 1.18092 1.18093 v 1.18092 h 1.18092 1.18093 1.18093 1.180919 1.180937 1.18092 v -1.18092 h 1.18093 1.18093 v -1.18093 h 1.18092 1.18093 v -1.18093 h 1.18092 1.18093 v 1.18093 h 1.18092 1.18093 v 1.18093 h 1.18092 1.18093 v 1.18092 h 1.18093 1.18092 1.18093 1.18093 1.18092 1.18093 1.18092 1.18092 v -1.18092 h 1.18093 v -1.18093 h 1.18093 v -1.18093 -1.18092 -1.18093 -1.18092 -1.18093 h -1.18093 v -1.18092 h -1.18093 -1.18092 -1.18092 v 1.18092 h 1.18092 v 1.18093 1.18092 h -1.18092 -1.18093 v -1.18092 h -1.18092 -1.18093 v -1.18093 h -1.18093 -1.18092 v -1.18092 h -1.18093 -1.18093 -1.18092 -1.18093 -1.18092 v 1.18092 h -1.18093 -1.18092 v -1.18092 h -1.18093 -1.18092 -1.18093 -1.18093 -1.18092 v 1.18092 h -1.180937 -1.180919 v 1.18093 h -1.18093 -1.18093 v 1.18092 h -1.18092 -1.18093 v -1.18092 -1.18093 h 1.18093 v -1.18092 h -1.18093 -1.18092 z" />
+						</g>
+					</svg>
+				</div>
+				<div class="col pt-6 align-middle">
+					<a href="https://t.me/+DRy-rSe5wQtlYTk1" target="_blank"
+						class="pt-4 pb-4 btn btn-pink rounded-pill">
+						<i class="bi bi-telegram text-purple fs-1" alt="Telegram"></i>
+					</a>
+				</div>
+				<div class="col">
+					<svg width="51.797825mm" height="68.43071mm" viewBox="0 0 51.797825 68.43071" version="1.1"
+						id="svg5" inkscape:version="1.1.2 (0a00cf5, 2022-02-04)" sodipodi:docname="anon-sqirrel-3.svg"
+						xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+						xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+						xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+						<sodipodi:namedview id="namedview7" pagecolor="#505050" bordercolor="#eeeeee" borderopacity="1"
+							inkscape:pageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0"
+							inkscape:document-units="mm" showgrid="false" inkscape:zoom="1.1189113"
+							inkscape:cx="81.329056" inkscape:cy="153.72085" inkscape:window-width="1440"
+							inkscape:window-height="838" inkscape:window-x="0" inkscape:window-y="0"
+							inkscape:window-maximized="1" inkscape:current-layer="layer1" fit-margin-top="0"
+							fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" />
+						<defs id="defs2" />
+						<g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1"
+							transform="translate(-82.339556,-114.18971)">
+							<g style="fill:none" id="g899"
+								transform="matrix(0.26458333,0,0,0.26458333,81.749882,128.88372)">
+								<path
+									d="m 168.289,112.115 c 0,28.571 -53.506,69.386 -69.9692,69.386 -16.4633,0 -69.9692,-40.815 -69.9692,-69.386 0,-40.5753 29.0532,-61.2233 69.9692,-61.2233 40.9162,0 69.9692,20.648 69.9692,61.2233 z"
+									fill="#f29d38" id="path824" />
+								<path
+									d="m 135.726,28.7474 c 6.834,-11.8372 32.689,-19.45649 37.641,-16.5977 4.951,2.8587 11.281,29.0598 4.446,40.897 -9.705,16.8106 -23.382,20.3204 -35.688,13.2156 C 129.819,59.1575 126.02,45.558 135.726,28.7474 Z"
+									fill="#f29d38" id="path826" />
+								<path
+									d="M 16.3797,52.8652 C 9.63511,41.1833 15.8814,15.3256 20.7679,12.5044 25.6545,9.68312 51.171,17.2025 57.9156,28.8845 67.4939,45.4747 63.7448,58.896 51.6003,65.9076 39.4558,72.9192 25.9581,69.4555 16.3797,52.8652 Z"
+									fill="#f29d38" id="path828" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="m 99.6548,86.4777 c 2.0302,0 3.6762,1.8963 3.6762,4.2355 v 59.2978 c 0,2.34 -1.646,4.236 -3.6762,4.236 -2.0305,0 -3.6765,-1.896 -3.6765,-4.236 V 90.7132 c 0,-2.3392 1.646,-4.2355 3.6765,-4.2355 z"
+									fill="#90665e" id="path830" />
+								<path
+									d="m 116.199,175.31 c 0,4.552 -7.407,8.242 -16.5442,8.242 -9.137,0 -16.5441,-3.69 -16.5441,-8.242 0,-4.552 7.4071,-8.242 16.5441,-8.242 9.1372,0 16.5442,3.69 16.5442,8.242 z"
+									fill="#000000" id="path832" />
+								<path
+									d="m 141.934,72.7407 c 0,9.6099 -18.929,17.4002 -42.2792,17.4002 -23.3502,0 -42.2793,-7.7903 -42.2793,-17.4002 0,-9.6099 18.9291,-17.4002 42.2793,-17.4002 23.3502,0 42.2792,7.7903 42.2792,17.4002 z"
+									fill="#000000" id="path834" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="m 105.205,59.0352 c 0.607,0.0995 0.996,0.4143 0.93,0.751 l -1.97,9.9807 h 5.96 c 0.817,0 1.617,0.1551 2.078,0.5377 0.42,0.3481 0.39,0.7552 0.118,1.0538 l -0.143,0.1638 c -0.011,0.0121 -0.022,0.024 -0.034,0.0358 L 97.4872,86.1049 c -0.3003,0.2981 -0.9541,0.4412 -1.5605,0.3415 -0.6063,-0.0996 -0.9957,-0.4142 -0.9293,-0.7508 l 1.9699,-9.9807 h -5.9601 c -0.7378,0 -1.8484,-0.1073 -2.259,-0.6874 -0.1751,-0.2472 -0.1329,-0.484 -0.0569,-0.6537 0.0773,-0.1726 0.2133,-0.33 0.3497,-0.4602 0.1009,-0.0962 0.1622,-0.154 0.197,-0.1862 0.0077,-0.0071 0.0156,-0.0143 0.0233,-0.0212 L 103.644,59.3779 c 0.3,-0.2986 0.954,-0.4421 1.561,-0.3427 z"
+									fill="#ffffff" id="path836" />
+								<path
+									d="m 140.285,41.1586 c 3.174,-5.4791 12.799,-10.3787 14.365,-9.4779 1.566,0.9008 2.119,11.6555 -1.055,17.1346 -4.509,7.7811 -9.567,10.1511 -13.458,7.9124 -3.892,-2.2387 -4.361,-7.7881 0.148,-15.5691 z"
+									fill="#90665e" id="path838" />
+								<path
+									d="M 37.4234,47.7058 C 34.2902,42.2986 34.8366,31.6849 36.382,30.7959 c 1.5453,-0.889 11.0435,3.9464 14.1767,9.3536 4.4495,7.6791 3.9867,13.1556 0.1462,15.365 -3.8406,2.2094 -8.832,-0.1296 -13.2815,-7.8087 z"
+									fill="#90665e" id="path840" />
+								<path
+									d="M 198,98.7942 H 2.22869 V 120.773 H 9.5816 v 7.327 h 8.272 v 7.326 h 7.3529 v 7.327 h 45.0366 v -7.327 H 77.596 V 128.1 h 7.353 v -7.327 h 8.272 v -7.326 h 13.787 v 7.326 h 8.272 v 7.327 h 7.353 v 7.326 h 7.353 v 7.327 h 45.955 v -7.327 h 7.353 V 128.1 h 7.353 v -7.327 H 198 Z"
+									fill="#000000" id="path842" />
+								<path d="m 40.0783,120.83 h -7.5188 v -7.271 h 7.5188 z" fill="#ffffff" id="path844" />
+								<path d="m 32.5865,128.096 h -7.5188 v -7.272 h 7.5188 z" fill="#ffffff" id="path846" />
+								<path d="m 47.6242,128.096 h -7.5188 v -7.272 h 7.5188 z" fill="#ffffff" id="path848" />
+								<path d="m 130.331,120.83 h -7.519 v -7.271 h 7.519 z" fill="#ffffff" id="path850" />
+								<path d="m 145.368,120.83 h -7.518 v -7.271 h 7.518 z" fill="#ffffff" id="path852" />
+								<path d="m 145.368,135.369 h -7.518 v -7.271 h 7.518 z" fill="#ffffff" id="path854" />
+								<path d="m 160.406,135.369 h -7.518 v -7.271 h 7.518 z" fill="#ffffff" id="path856" />
+								<path d="M 55.1428,135.369 H 47.624 v -7.271 h 7.5188 z" fill="#ffffff" id="path858" />
+								<path d="m 25.0675,120.83 h -7.5189 v -7.271 h 7.5189 z" fill="#ffffff" id="path860" />
+								<path d="m 40.1053,135.369 h -7.5188 v -7.271 h 7.5188 z" fill="#ffffff" id="path862" />
+								<path d="m 137.85,128.096 h -7.519 v -7.272 h 7.519 z" fill="#ffffff" id="path864" />
+								<path d="m 152.887,128.096 h -7.518 v -7.272 h 7.518 z" fill="#ffffff" id="path866" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="m 183.488,57.6848 c -4.654,8.0317 -10.271,13.8224 -16.548,17.1945 4.259,6.9072 7.187,14.8971 8.605,23.9147 h -8.671 c -1.436,-8.0775 -4.245,-15.0493 -8.19,-20.9568 -0.056,0.0107 -0.112,0.0213 -0.169,0.0317 -1.875,-2.8197 -4.011,-5.4135 -6.386,-7.7806 9.083,0.8172 18.125,-4.2752 25.091,-16.2968 6.733,-11.6199 0.498,-37.3402 -4.381,-40.1465 -4.878,-2.8062 -30.351,4.6732 -37.084,16.2931 -6.326,10.9185 -6.828,20.4571 -2.932,27.6821 -9.813,-3.9558 -21.293,-5.9446 -33.9201,-5.9446 -14.5373,0 -27.5547,2.6362 -38.2576,7.8753 C 65.8769,52.2136 65.9929,41.9737 59.0968,30.0724 52.5593,18.7898 28.1195,11.4626 22.7477,13.8668 c -0.1342,0.0187 -0.2301,0.0376 -0.2929,0.0513 -0.0434,0.0474 -0.1079,0.1208 -0.1915,0.2276 C 17.4882,17.5837 11.639,42.3318 18.1758,53.613 26.0433,67.1909 36.5948,71.812 46.82,68.9846 38.7959,76.4995 33.3087,86.4461 31.0823,98.794 h -7.557 C 24.8458,90.3955 27.476,82.8884 31.2714,76.3172 23.7491,73.3105 17.0506,67.0075 11.649,57.6855 9.29716,53.6267 8.22268,48.6318 7.87581,43.6727 7.52526,38.6612 7.89633,33.3664 8.68565,28.4692 9.47438,23.5757 10.7036,18.9381 12.1476,15.2364 c 0.7201,-1.846 1.5297,-3.5528 2.421,-4.9729 0.827,-1.31759 1.9933,-2.83046 3.5947,-3.75167 1.6014,-0.92121 3.4995,-1.17124 5.0581,-1.22603 1.6799,-0.05905 3.5683,0.0957 5.5328,0.39733 3.9394,0.60482 8.5847,1.86291 13.2323,3.62908 4.6512,1.76749 9.4387,4.09469 13.6192,6.90289 4.1368,2.7789 7.9409,6.2035 10.2927,10.2623 4.1074,7.0885 6.3225,13.9513 6.6435,20.3478 8.335,-2.1554 17.4087,-3.2166 26.993,-3.2166 8.1191,0 15.8711,0.7615 23.1181,2.3045 0.477,-6.1353 2.672,-12.6834 6.585,-19.4363 2.352,-4.0589 6.156,-7.4835 10.293,-10.2623 4.181,-2.8083 8.968,-5.1355 13.619,-6.90297 4.648,-1.76617 9.293,-3.02426 13.233,-3.62908 1.964,-0.30163 3.852,-0.45638 5.532,-0.39733 1.559,0.05479 3.457,0.30481 5.058,1.22603 1.602,0.92121 2.768,2.43408 3.595,3.75165 0.891,1.4201 1.701,3.1269 2.421,4.9729 1.444,3.7017 2.673,8.3393 3.462,13.2328 0.789,4.8972 1.16,10.192 0.81,15.2035 -0.347,4.9591 -1.421,9.954 -3.773,14.0128 z M 35.562,142.752 c 5.2424,6.921 11.6396,13.618 18.3393,19.626 8.2093,7.362 16.994,13.797 24.8872,18.419 3.9454,2.311 7.7312,4.205 11.1597,5.534 3.358,1.301 6.6742,2.179 9.5867,2.179 2.9121,0 6.2291,-0.878 9.5871,-2.179 3.428,-1.329 7.214,-3.223 11.159,-5.534 7.894,-4.622 16.678,-11.057 24.888,-18.419 6.699,-6.008 13.096,-12.705 18.339,-19.626 h -10.657 c -12.074,14.198 -29.051,27.103 -41.633,33.287 -1.859,0.943 -3.601,1.729 -5.197,2.348 -2.957,1.146 -5.121,1.6 -6.4861,1.6 -0.4118,0 -0.8964,-0.042 -1.4537,-0.131 -11.1433,-0.828 -36.6821,-17.768 -53.126,-37.104 z"
+									fill="#000000" id="path868" />
+							</g>
+						</g>
+					</svg>
+				</div>
+				<div class="col">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">
+				</div>
+				<div class="col">
+				</div>
+				<div class="col">
+					<svg width="51.797825mm" height="68.43071mm" viewBox="0 0 51.797825 68.43071" version="1.1"
+						id="svg5" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+						xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+						xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+						<sodipodi:namedview id="namedview7" pagecolor="#505050" bordercolor="#eeeeee" borderopacity="1"
+							inkscape:pageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0"
+							inkscape:document-units="mm" showgrid="false" inkscape:zoom="1.1189113"
+							inkscape:cx="80.882191" inkscape:cy="153.72085" inkscape:window-width="1440"
+							inkscape:window-height="838" inkscape:window-x="0" inkscape:window-y="0"
+							inkscape:window-maximized="1" inkscape:current-layer="layer1" fit-margin-top="0"
+							fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" />
+						<defs id="defs2" />
+						<g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1"
+							transform="translate(-82.339556,-114.18971)">
+							<g style="fill:none" id="g899"
+								transform="matrix(0.26458333,0,0,0.26458333,81.749882,128.88372)">
+								<path
+									d="m 168.289,112.115 c 0,28.571 -53.506,69.386 -69.9692,69.386 -16.4633,0 -69.9692,-40.815 -69.9692,-69.386 0,-40.5753 29.0532,-61.2233 69.9692,-61.2233 40.9162,0 69.9692,20.648 69.9692,61.2233 z"
+									fill="#f29d38" id="path824" />
+								<path
+									d="m 135.726,28.7474 c 6.834,-11.8372 32.689,-19.45649 37.641,-16.5977 4.951,2.8587 11.281,29.0598 4.446,40.897 -9.705,16.8106 -23.382,20.3204 -35.688,13.2156 C 129.819,59.1575 126.02,45.558 135.726,28.7474 Z"
+									fill="#f29d38" id="path826" />
+								<path
+									d="M 16.3797,52.8652 C 9.63511,41.1833 15.8814,15.3256 20.7679,12.5044 25.6545,9.68312 51.171,17.2025 57.9156,28.8845 67.4939,45.4747 63.7448,58.896 51.6003,65.9076 39.4558,72.9192 25.9581,69.4555 16.3797,52.8652 Z"
+									fill="#f29d38" id="path828" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="m 99.6548,86.4777 c 2.0302,0 3.6762,1.8963 3.6762,4.2355 v 59.2978 c 0,2.34 -1.646,4.236 -3.6762,4.236 -2.0305,0 -3.6765,-1.896 -3.6765,-4.236 V 90.7132 c 0,-2.3392 1.646,-4.2355 3.6765,-4.2355 z"
+									fill="#90665e" id="path830" />
+								<path
+									d="m 116.199,175.31 c 0,4.552 -7.407,8.242 -16.5442,8.242 -9.137,0 -16.5441,-3.69 -16.5441,-8.242 0,-4.552 7.4071,-8.242 16.5441,-8.242 9.1372,0 16.5442,3.69 16.5442,8.242 z"
+									fill="#000000" id="path832" />
+								<path
+									d="m 141.934,72.7407 c 0,9.6099 -18.929,17.4002 -42.2792,17.4002 -23.3502,0 -42.2793,-7.7903 -42.2793,-17.4002 0,-9.6099 18.9291,-17.4002 42.2793,-17.4002 23.3502,0 42.2792,7.7903 42.2792,17.4002 z"
+									fill="#000000" id="path834" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="m 105.205,59.0352 c 0.607,0.0995 0.996,0.4143 0.93,0.751 l -1.97,9.9807 h 5.96 c 0.817,0 1.617,0.1551 2.078,0.5377 0.42,0.3481 0.39,0.7552 0.118,1.0538 l -0.143,0.1638 c -0.011,0.0121 -0.022,0.024 -0.034,0.0358 L 97.4872,86.1049 c -0.3003,0.2981 -0.9541,0.4412 -1.5605,0.3415 -0.6063,-0.0996 -0.9957,-0.4142 -0.9293,-0.7508 l 1.9699,-9.9807 h -5.9601 c -0.7378,0 -1.8484,-0.1073 -2.259,-0.6874 -0.1751,-0.2472 -0.1329,-0.484 -0.0569,-0.6537 0.0773,-0.1726 0.2133,-0.33 0.3497,-0.4602 0.1009,-0.0962 0.1622,-0.154 0.197,-0.1862 0.0077,-0.0071 0.0156,-0.0143 0.0233,-0.0212 L 103.644,59.3779 c 0.3,-0.2986 0.954,-0.4421 1.561,-0.3427 z"
+									fill="#ffffff" id="path836" />
+								<path
+									d="m 140.285,41.1586 c 3.174,-5.4791 12.799,-10.3787 14.365,-9.4779 1.566,0.9008 2.119,11.6555 -1.055,17.1346 -4.509,7.7811 -9.567,10.1511 -13.458,7.9124 -3.892,-2.2387 -4.361,-7.7881 0.148,-15.5691 z"
+									fill="#90665e" id="path838" />
+								<path
+									d="M 37.4234,47.7058 C 34.2902,42.2986 34.8366,31.6849 36.382,30.7959 c 1.5453,-0.889 11.0435,3.9464 14.1767,9.3536 4.4495,7.6791 3.9867,13.1556 0.1462,15.365 -3.8406,2.2094 -8.832,-0.1296 -13.2815,-7.8087 z"
+									fill="#90665e" id="path840" />
+								<path
+									d="M 198,98.7942 H 2.22869 V 120.773 H 9.5816 v 7.327 h 8.272 v 7.326 h 7.3529 v 7.327 h 45.0366 v -7.327 H 77.596 V 128.1 h 7.353 v -7.327 h 8.272 v -7.326 h 13.787 v 7.326 h 8.272 v 7.327 h 7.353 v 7.326 h 7.353 v 7.327 h 45.955 v -7.327 h 7.353 V 128.1 h 7.353 v -7.327 H 198 Z"
+									fill="#000000" id="path842" />
+								<path d="m 40.0783,120.83 h -7.5188 v -7.271 h 7.5188 z" fill="#ffffff" id="path844" />
+								<path d="m 32.5865,128.096 h -7.5188 v -7.272 h 7.5188 z" fill="#ffffff" id="path846" />
+								<path d="m 47.6242,128.096 h -7.5188 v -7.272 h 7.5188 z" fill="#ffffff" id="path848" />
+								<path d="m 130.331,120.83 h -7.519 v -7.271 h 7.519 z" fill="#ffffff" id="path850" />
+								<path d="m 145.368,120.83 h -7.518 v -7.271 h 7.518 z" fill="#ffffff" id="path852" />
+								<path d="m 145.368,135.369 h -7.518 v -7.271 h 7.518 z" fill="#ffffff" id="path854" />
+								<path d="m 160.406,135.369 h -7.518 v -7.271 h 7.518 z" fill="#ffffff" id="path856" />
+								<path d="M 55.1428,135.369 H 47.624 v -7.271 h 7.5188 z" fill="#ffffff" id="path858" />
+								<path d="m 25.0675,120.83 h -7.5189 v -7.271 h 7.5189 z" fill="#ffffff" id="path860" />
+								<path d="m 40.1053,135.369 h -7.5188 v -7.271 h 7.5188 z" fill="#ffffff" id="path862" />
+								<path d="m 137.85,128.096 h -7.519 v -7.272 h 7.519 z" fill="#ffffff" id="path864" />
+								<path d="m 152.887,128.096 h -7.518 v -7.272 h 7.518 z" fill="#ffffff" id="path866" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="m 183.488,57.6848 c -4.654,8.0317 -10.271,13.8224 -16.548,17.1945 4.259,6.9072 7.187,14.8971 8.605,23.9147 h -8.671 c -1.436,-8.0775 -4.245,-15.0493 -8.19,-20.9568 -0.056,0.0107 -0.112,0.0213 -0.169,0.0317 -1.875,-2.8197 -4.011,-5.4135 -6.386,-7.7806 9.083,0.8172 18.125,-4.2752 25.091,-16.2968 6.733,-11.6199 0.498,-37.3402 -4.381,-40.1465 -4.878,-2.8062 -30.351,4.6732 -37.084,16.2931 -6.326,10.9185 -6.828,20.4571 -2.932,27.6821 -9.813,-3.9558 -21.293,-5.9446 -33.9201,-5.9446 -14.5373,0 -27.5547,2.6362 -38.2576,7.8753 C 65.8769,52.2136 65.9929,41.9737 59.0968,30.0724 52.5593,18.7898 28.1195,11.4626 22.7477,13.8668 c -0.1342,0.0187 -0.2301,0.0376 -0.2929,0.0513 -0.0434,0.0474 -0.1079,0.1208 -0.1915,0.2276 C 17.4882,17.5837 11.639,42.3318 18.1758,53.613 26.0433,67.1909 36.5948,71.812 46.82,68.9846 38.7959,76.4995 33.3087,86.4461 31.0823,98.794 h -7.557 C 24.8458,90.3955 27.476,82.8884 31.2714,76.3172 23.7491,73.3105 17.0506,67.0075 11.649,57.6855 9.29716,53.6267 8.22268,48.6318 7.87581,43.6727 7.52526,38.6612 7.89633,33.3664 8.68565,28.4692 9.47438,23.5757 10.7036,18.9381 12.1476,15.2364 c 0.7201,-1.846 1.5297,-3.5528 2.421,-4.9729 0.827,-1.31759 1.9933,-2.83046 3.5947,-3.75167 1.6014,-0.92121 3.4995,-1.17124 5.0581,-1.22603 1.6799,-0.05905 3.5683,0.0957 5.5328,0.39733 3.9394,0.60482 8.5847,1.86291 13.2323,3.62908 4.6512,1.76749 9.4387,4.09469 13.6192,6.90289 4.1368,2.7789 7.9409,6.2035 10.2927,10.2623 4.1074,7.0885 6.3225,13.9513 6.6435,20.3478 8.335,-2.1554 17.4087,-3.2166 26.993,-3.2166 8.1191,0 15.8711,0.7615 23.1181,2.3045 0.477,-6.1353 2.672,-12.6834 6.585,-19.4363 2.352,-4.0589 6.156,-7.4835 10.293,-10.2623 4.181,-2.8083 8.968,-5.1355 13.619,-6.90297 4.648,-1.76617 9.293,-3.02426 13.233,-3.62908 1.964,-0.30163 3.852,-0.45638 5.532,-0.39733 1.559,0.05479 3.457,0.30481 5.058,1.22603 1.602,0.92121 2.768,2.43408 3.595,3.75165 0.891,1.4201 1.701,3.1269 2.421,4.9729 1.444,3.7017 2.673,8.3393 3.462,13.2328 0.789,4.8972 1.16,10.192 0.81,15.2035 -0.347,4.9591 -1.421,9.954 -3.773,14.0128 z M 35.562,142.752 c 5.2424,6.921 11.6396,13.618 18.3393,19.626 8.2093,7.362 16.994,13.797 24.8872,18.419 3.9454,2.311 7.7312,4.205 11.1597,5.534 3.358,1.301 6.6742,2.179 9.5867,2.179 2.9121,0 6.2291,-0.878 9.5871,-2.179 3.428,-1.329 7.214,-3.223 11.159,-5.534 7.894,-4.622 16.678,-11.057 24.888,-18.419 6.699,-6.008 13.096,-12.705 18.339,-19.626 h -10.657 c -12.074,14.198 -29.051,27.103 -41.633,33.287 -1.859,0.943 -3.601,1.729 -5.197,2.348 -2.957,1.146 -5.121,1.6 -6.4861,1.6 -0.4118,0 -0.8964,-0.042 -1.4537,-0.131 -11.1433,-0.828 -36.6821,-17.768 -53.126,-37.104 z"
+									fill="#000000" id="path868" />
+							</g>
+							<g inkscape:label="Layer 1" id="layer1-0"
+								transform="matrix(0.6341447,0,0,0.59914498,61.430989,67.541923)">
+								<path id="path3466" style="stroke-width:0.999999"
+									d="m 193.05469,294.26367 v 8 h -8 -8 -8 -8 v 8 8 8 8 8 8 8 h 8 v 8 8 8 8 8 8 h 8 v 8 8 8 8 8 8 h 8 8 v 8 h 8 8 8 v 8 h 8 8 8 8 8 8 v 8 h 8 8 8 8 8 v -8 h 8 8 8 8 8 v -8 h 8 8 8 v -8 -8 -8 -8 h 8 v -8 -8 -8 -8 -8 -8 -8 -8 h 8 v -8 -8 -8 -8 -8 -8 -8 -8 h -8 -8 -8 -8 -8 v -8 h -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 z m -32,176 v 8 h -8 -8 v 8 h -8 v 8 8 8 h 8 v 8 h 8 8 v 8 h 8 8 8 v 8 h 8 8 8 8 8 v 8 h 8 8 8 8 8 8 8 8 8 8 8 8 8 v -8 h 8 8 8 8 8 v -8 h 8 8 8 v -8 h 8 8 v -8 h 8 v -8 -8 -8 h -8 v -8 h -8 -8 v -8 h -8 -8 -8 v 8 8 h -8 v 8 h -8 -8 -8 v 8 h -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 -8 v -8 h -8 -8 -8 v -8 h -8 v -8 h -8 v -8 h -8 z"
+									transform="scale(0.26458333)" />
+								<path id="path4504" style="fill:#f4f4f6;fill-opacity:1;stroke-width:0.999999"
+									d="m 177.05469,454.26367 v 8 8 8 h 8 v 8 h 8 v 8 h 8 8 8 v 8 h 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 v -8 h 8 8 8 v -8 h 8 v -8 -8 -8 h -8 -8 -8 v 8 h -8 -8 -8 -8 -8 v 8 h -8 -8 -8 -8 -8 v -8 h -8 -8 -8 -8 -8 -8 v -8 h -8 -8 -8 v -8 h -8 z"
+									transform="scale(0.26458333)" />
+							</g>
+							<path id="path1964" style="stroke-width:0.147616"
+								d="m 91.574144,173.17302 v 1.18092 h -1.18092 v 1.18093 1.18092 1.18093 1.18092 h 1.18092 v 1.18093 h 1.18093 v 1.18093 h 1.18092 1.18093 v 1.18092 h 1.18092 1.18093 1.18093 1.180919 1.180937 1.18092 v -1.18092 h 1.18093 1.18093 v -1.18093 h 1.18092 1.18093 v -1.18093 h 1.18092 1.18093 v 1.18093 h 1.18092 1.18093 v 1.18093 h 1.18092 1.18093 v 1.18092 h 1.18093 1.18092 1.18093 1.18093 1.18092 1.18093 1.18092 1.18092 v -1.18092 h 1.18093 v -1.18093 h 1.18093 v -1.18093 -1.18092 -1.18093 -1.18092 -1.18093 h -1.18093 v -1.18092 h -1.18093 -1.18092 -1.18092 v 1.18092 h 1.18092 v 1.18093 1.18092 h -1.18092 -1.18093 v -1.18092 h -1.18092 -1.18093 v -1.18093 h -1.18093 -1.18092 v -1.18092 h -1.18093 -1.18093 -1.18092 -1.18093 -1.18092 v 1.18092 h -1.18093 -1.18092 v -1.18092 h -1.18093 -1.18092 -1.18093 -1.18093 -1.18092 v 1.18092 h -1.180937 -1.180919 v 1.18093 h -1.18093 -1.18093 v 1.18092 h -1.18092 -1.18093 v -1.18092 -1.18093 h 1.18093 v -1.18092 h -1.18093 -1.18092 z" />
+						</g>
+					</svg>
+				</div>
+				<div class="col">
+				</div>
+				<div class="col">
+				</div>
+			</div>
+
+		</div>
+		</div>
+	</section>
+
+
+
+	<section id="faq" class="py-15 py-xl-20">
+		<div class="container">
+			<div class="row justify-content-center mb-8">
+				<div class="col-lg-10">
+					<small class="text-grey"> In case needed...</small>
+					<h2 class="fw-bold text-gradient"><span class="d-lg-block">FAQs</span></h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-10">
+					<div class="accordion accordion-highlight" id="accordion-0">
+						<h5 class="text-orange">Risks using Nutstash</h5>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="heading-0-1">
+								<button class="accordion-button fs-lg collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse-0-1" aria-expanded="false" aria-controls="collapse-0-1">
+									<i class="bi bi-exclamation-triangle text-orange fs-5 me-2"></i> Nutstash is an
+									unfinished product.
+								</button>
+							</h2>
+							<div id="collapse-0-1" class="accordion-collapse collapse" aria-labelledby="heading-0-1"
+								data-bs-parent="#accordion-0" style="">
+								<div class="accordion-body">
+									<p>Nutstash is in early development. The tools and protocols in use are cutting
+										edge, which means they probably haven't been tested enough to be deemed secure.
+										Also, errors might occur that make the app unusable. Backup your tokens, and if
+										all else fails, recover them from the browsers local storage.</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="heading-0-2">
+								<button class="accordion-button fs-lg collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse-0-2" aria-expanded="false" aria-controls="collapse-0-2">
+									<i class="bi bi-exclamation-triangle text-orange fs-5 me-2"></i>Mints hold the keys.
+								</button>
+							</h2>
+							<div id="collapse-0-2" class="accordion-collapse collapse" aria-labelledby="heading-0-2"
+								data-bs-parent="#accordion-0" style="">
+								<div class="accordion-body">
+									<p>In nutstash, the user of the wallet does not hold the keys to the Bitcoin. The
+										Bitcoin custodian is the mint. This means, that if you don't trust a mint, you
+										should probably not interact with it.</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="heading-0-3">
+								<button class="accordion-button fs-lg collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse-0-3" aria-expanded="false" aria-controls="collapse-0-3">
+									<i class="bi bi-exclamation-triangle text-orange fs-5 me-3"></i>Loss of tokens.
+								</button>
+							</h2>
+							<div id="collapse-0-3" class="accordion-collapse collapse" aria-labelledby="heading-0-3"
+								data-bs-parent="#accordion-0" style="">
+								<div class="accordion-body">
+									<p>The tokens in Cashu are bearer tokens. This means, if you loose access to your
+										tokens, there is no way to recover them. Nutstash stores your tokens in the
+										local storage of the browser. This means, you shouldn't use a private window, or
+										the cache might get cleared. Also, before deleting your browser history, you
+										should backup your tokens.</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="heading-0-4">
+								<button class="accordion-button fs-lg collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse-0-4" aria-expanded="false" aria-controls="collapse-0-4">
+									<i class="bi bi-exclamation-triangle text-orange fs-5 me-2"></i>Possible theft.
+								</button>
+							</h2>
+							<div id="collapse-0-4" class="accordion-collapse collapse" aria-labelledby="heading-0-4"
+								data-bs-parent="#accordion-0" style="">
+								<div class="accordion-body">
+									<p>The tokens in nutstash are stored in the browsers local storage. Unencrypted. If
+										someone has access to that browser, they can steal the tokens.</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="heading-0-5">
+								<button class="accordion-button fs-lg collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse-0-5" aria-expanded="false" aria-controls="collapse-0-5">
+									<i class="bi bi-exclamation-triangle text-orange fs-5 me-2"></i>Data leakage.
+								</button>
+							</h2>
+							<div id="collapse-0-5" class="accordion-collapse collapse" aria-labelledby="heading-0-5"
+								data-bs-parent="#accordion-0" style="">
+								<div class="accordion-body">
+									<p>Yes, Cashu has great privacy features. But if you're connecting to the mint, they
+										have access to the IP you're connecting with. This can be mitigated by using a
+										proxy, VPN or TOR browser.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion accordion-highlight" id="accordion-1">
+						<h5 class="text-pink">Tokens and Wallets</h5>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="heading-1-1">
+								<button class="accordion-button fs-lg collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse-1-1" aria-expanded="false" aria-controls="collapse-1-1">
+									<i class="bi bi-asterisk text-pink fs-5 me-2"></i> What is a Token?
+								</button>
+							</h2>
+							<div id="collapse-1-1" class="accordion-collapse collapse" aria-labelledby="heading-1-1"
+								data-bs-parent="#accordion-1" style="">
+								<div class="accordion-body">
+									<p>A "token" (also known as "ecash" or in slang "a nut") is a piece of data that
+										consists of a blindly signed secret. It was signed by the mint with the private
+										key for a specific amount. Therefore a token is an IOU representation of
+										satoshis that are custodied at the mint.</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="heading-1-2">
+								<button class="accordion-button fs-lg collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse-1-2" aria-expanded="false" aria-controls="collapse-1-2">
+									<i class="bi bi-asterisk text-pink fs-5 me-2"></i> What is an ecash wallet?
+								</button>
+							</h2>
+							<div id="collapse-1-2" class="accordion-collapse collapse" aria-labelledby="heading-1-2"
+								data-bs-parent="#accordion-1" style="">
+								<div class="accordion-body">
+									<p>An ecash wallet, like Nutstash, is a special type of wallet. Ecash wallets are
+										always custodial, since the ecash itself has no value. Cashu ecash represents
+										satoshis, but the keys that control the actual satoshis on-chain are at the
+										mint. So the easiest way to compare an ecash wallet is with another custodial
+										lightning wallet, like wallet of satoshi.</p>
+									<p>Ecash wallets come with some additional features over traditional custodial
+										wallets, such as:</p>
+									<ul class="list-disc">
+										<li><b>No accounts:</b> Since ecash is bearer asset tokens, Cashu doesn't
+											require accounts and balances to keep track of users funds</li>
+										<li><b>Enhanced privacy:</b> Due to the fact that there are no accounts, plus
+											the blinding mechanism for creating ecash, users inside a mint cannot be
+											distinguished from one another.</li>
+										<li><b>Send/receive at ecash layer:</b> We can send funds at the ecash layer,
+											without touching the lightning network. This allows for out-of-band or
+											air-gapped value transfers.</li>
+										<li><b>Store all data locally:</b> No data has to be stored at any servers.</li>
+									</ul>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion accordion-highlight" id="accordion-2">
+						<h5 class="text-pink">Safety & Privacy</h5>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="heading-2-1">
+								<button class="accordion-button fs-lg collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse-2-1" aria-expanded="false" aria-controls="collapse-2-1">
+									<i class="bi bi-asterisk text-pink fs-5 me-2"></i> Are there any risks when using
+									nutstash?
+								</button>
+							</h2>
+							<div id="collapse-2-1" class="accordion-collapse collapse" aria-labelledby="heading-2-1"
+								data-bs-parent="#accordion-2" style="">
+								<div class="accordion-body">
+									<p>Yes. In fact, there are many risks. Make sure to understand them before putting
+										any sats
+										into nutstash.
+									</p>
+									<ul class="list-disc">
+										<li>Nutstash and the underlying Cashu protocol are still in early development.
+											Funds might be lost forever due to bugs in the software or the protocol.
+										</li>
+										<li>Nutstash is a ecash wallet interface. It is not a lightning wallet, and it
+											does not run a lightning node. Nutstash leverages the Cashu protocol to
+											communicate with Cashu mints to integrate with lightning. Therefore, the
+											mint is running the lightning infrastructure and custodies the satoshis for
+											the mints ecash users. Users have to trust the mint to redeem their ecash
+											once they want to swap out to lightning.</li>
+										<li>Ecash tokens are bearer asset tokens. This means the data that gets stored
+											in the wallet (browser local storage) represents the actual money itself.
+											Should the storage be wiped, funds will be lost.</li>
+										<li>Nutstash is a PWA, a progressive web app. This has the benefit of
+											accessability, since it doesn't rely on appstores listing and not banning
+											the app, but it opens up a whole plethora of security risks. For example,
+											the updates can be pushed from the server to devices without notice. So if
+											the server that ships nutstash gets compromised, so will every wallet. Of
+											course we will try our best to keep the wallet as safe as possible, but
+											please be aware that there are inherent limitations to this model.</li>
+									</ul>
+									<p>Please take these risks seriously. Don't put any money into nutstash that you're
+										not
+										willing to lose.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="heading-2-2">
+								<button class="accordion-button fs-lg collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse-2-2" aria-expanded="false" aria-controls="collapse-2-2">
+									<i class="bi bi-asterisk text-pink fs-5 me-2"></i> How much privacy does
+									Nutstash+Cashu provide?
+								</button>
+							</h2>
+							<div id="collapse-2-2" class="accordion-collapse collapse" aria-labelledby="heading-2-2"
+								data-bs-parent="#accordion-2" style="">
+								<div class="accordion-body">
+									<p>The Cashu protocol offers a blinding mechanism to unlink the creation of an ecash
+										token from its redemption. This gives the mint or anyone else no direct link for
+										parties involved in a transaction. The cashu protocol also works entirely
+										without accounts. So theoretically it is impossible for a mint operator to
+										determine how many users it has and who they are.</p>
+									<p>There are a few things to consider though.</p>
+									<p class="font-bold">Privacy chokepoints</p>
+									<ul class="list-disc">
+										<li>Swapping in and out of the mint requires lightning transactions. While
+											sender privacy is pretty good on lightning, the mint will almost certaily be
+											able to identify a receiver that is getting paid through the mint. This
+											still doesn't deanonymize the sender, but it does give the mint the power to
+											censor certain payments.</li>
+										<li>Larger amounts most likely have less good privacy properties, due to their
+											token denominations being rare. Cashu uses fixed (power-of-2) token
+											denominations to create a hide-in-the-crowd effect. But the larger a token
+											gets, the more likely it is that fewer and fewer of them exists, and at some
+											point there is no crowd to hide anymore. If there is only one token of a
+											specific denomination, it can always be linked back to its creation.</li>
+									</ul>
+									<p class="font-bold">Inter-protocol privacy</p>
+									<ul class="list-disc">
+										<li>Cashu does offer decent privacy at the protocol level, but it does not take
+											into consideration network level privacy. Mints may try to collect network
+											data such as access time, IP addresses and or other metadata. To achieve
+											better network level privacy users should rely on tools that specialize in
+											that, such as tor, mixnets, VPNs etc..</li>
+										<li>Cashu transactions happen 'out-of-band', which shifts the responsibility to
+											use secure channels for sending tokens. The most secure channel is to send
+											tokens air-gapped (via QR codes), since it doesn't leave any trace of
+											out-of-band data. If tokens need to be sent over a network, it should always
+											be done over an end-to-end encrypted channel, preferably with self
+											destructing messages.</li>
+									</ul>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion accordion-highlight" id="accordion-3">
+						<h5 class="text-indigo">Cashu Basics</h5>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="heading-3-1">
+								<button class="accordion-button fs-lg collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse-3-1" aria-expanded="false" aria-controls="collapse-3-1">
+									<i class="bi bi-asterisk text-indigo fs-5 me-2"></i> How does the Cashu ecash
+									protocol work?
+								</button>
+							</h2>
+							<div id="collapse-3-1" class="accordion-collapse collapse" aria-labelledby="heading-3-1"
+								data-bs-parent="#accordion-3" style="">
+								<div class="accordion-body">
+									<p>
+										See <a class="link link-secondary"
+											href="http://lconf.gandlaf.com">http://lconf.gandlaf.com</a> or
+										<br /><a class="link link-secondary"
+											href="https://www.youtube.com/watch?v=UNjVc-WYdgE&amp;t=105s">https://www.youtube.com/watch?v=UNjVc-WYdgE&amp;t=105s</a>
+										for an introduction to the Cashu protocol.
+										<br />Or read the Cashu NUTs (Notation, Usage, Terminology) in Github here: <a
+											href="https://github.com/cashubtc/nuts"
+											class="link link-secondary">https://github.com/cashubtc/nuts</a>.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="heading-3-2">
+								<button class="accordion-button fs-lg collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse-3-2" aria-expanded="false" aria-controls="collapse-3-2">
+									<i class="bi bi-asterisk text-indigo fs-5 me-2"></i> Can I create a Cashu account?
+								</button>
+							</h2>
+							<div id="collapse-3-2" class="accordion-collapse collapse" aria-labelledby="heading-3-2"
+								data-bs-parent="#accordion-3" style="">
+								<div class="accordion-body">
+									<p>Cashu doesn't have accounts. In fact, you don't need one. All the tokens are
+										stored client-side, on your device.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion accordion-highlight" id="accordion-4">
+						<h5 class="text-indigo">Cashu Mints</h5>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="heading-4-1">
+								<button class="accordion-button fs-lg collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse-4-1" aria-expanded="false" aria-controls="collapse-4-1">
+									<i class="bi bi-asterisk text-indigo fs-5 me-2"></i> What is a mint?
+								</button>
+							</h2>
+							<div id="collapse-4-1" class="accordion-collapse collapse" aria-labelledby="heading-4-1"
+								data-bs-parent="#accordion-4" style="">
+								<div class="accordion-body">
+									<p>Mints are Lightning node runners, that have decided to let you use their
+										Lightning infrastructure to offer you a service. They will act as a custodian
+										for your satoshis on the Lightning network, while they issue ecash to you, the
+										user. You can think of it as in free banking, where the bank issues their own
+										bank notes that is backed by gold.</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="heading-4-2">
+								<button class="accordion-button fs-lg collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse-4-2" aria-expanded="false" aria-controls="collapse-4-2">
+									<i class="bi bi-asterisk text-indigo fs-5 me-2"></i> Can mints see my IP address?
+								</button>
+							</h2>
+							<div id="collapse-4-2" class="accordion-collapse collapse" aria-labelledby="heading-4-2"
+								data-bs-parent="#accordion-4" style="">
+								<div class="accordion-body">
+									<p>Yes. Cashu doesn't protect against network level heuristics per default. Users
+										should take precautions to protect themselves against leaking network meta data
+										by using privacy tools such as tor.</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="heading-4-3">
+								<button class="accordion-button fs-lg collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse-4-3" aria-expanded="false" aria-controls="collapse-4-3">
+									<i class="bi bi-asterisk text-indigo fs-5 me-2"></i> Which mint should I choose?
+								</button>
+							</h2>
+							<div id="collapse-4-3" class="accordion-collapse collapse" aria-labelledby="heading-4-3"
+								data-bs-parent="#accordion-4" style="">
+								<div class="accordion-body">
+									<p>Right now, Cashu is in its early development. There are not yet any
+										professionally run mints. Find mints for playing around here:
+										https://mintindex.gandlaf.com
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="heading-4-4">
+								<button class="accordion-button fs-lg collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse-4-4" aria-expanded="false" aria-controls="collapse-4-4">
+									<i class="bi bi-asterisk text-indigo fs-5 me-2"></i> Can I run my own mint?
+								</button>
+							</h2>
+							<div id="collapse-4-4" class="accordion-collapse collapse" aria-labelledby="heading-4-4"
+								data-bs-parent="#accordion-4" style="">
+								<div class="accordion-body">
+									<p>Yes you can, and you should! At least for now, as we are still in the early
+										testing phase. You can easily set up a mint by installing the Cashu extension on
+										LNBits. (It's literally 2 clicks)</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="heading-4-5">
+								<button class="accordion-button fs-lg collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapse-4-5" aria-expanded="false" aria-controls="collapse-4-5">
+									<i class="bi bi-asterisk text-indigo fs-5 me-2"></i> Can I use tokens from one mint
+									at another mint?
+								</button>
+							</h2>
+							<div id="collapse-4-5" class="accordion-collapse collapse" aria-labelledby="heading-4-5"
+								data-bs-parent="#accordion-4" style="">
+								<div class="accordion-body">
+									<p>No. Each mint has their own tokens. You can however use the tokens from one mint
+										and swap them over lightning for tokens from another mint.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- footer -->
+	<footer class="py-15 py-xl-20 bg-black inverted border-top">
+		<div class="container">
+			<div class="row g-4 g-lg-5 mb-10">
+				<div class="col-md-3 text-center text-md-start">
+					<a href="#" class="navbar-brand"><img src="assets/logo-gradient.svg" alt="Logo"></a>
+					<p class=" mt-3 ms-1"><small> 2023 <a class="nav-link d-inline-block p-0"
+								href="https://www.gnu.org/philosophy/floss-and-foss.en.html" target="_blank"
+								rel="noopener">FOSS</a> | Free & Open Source Software by <a
+								class="nav-link d-inline-block p-0"
+								href="https://www.activism.net/cypherpunk/manifesto.html" target="_blank"
+								rel="noopener">nutcases</a>.
+							<span class="d-lg-block">A recipy by <a
+									href="https://snort.social/nprofile1qqs9pk20ctv9srrg9vr354p03v0rrgsqkpggh2u45va77zz4mu5p6ccytv72v"
+									target="_blank">Dr. Calle</a>,
+								baked by <a
+									href="https://snort.social/npub1cj6ndx5akfazux7f0vjl4fyx9k0ulf682p437fe03a9ndwqjm0tqj886t6"
+									target="_blank">Gandlaf</a> & </span>
+							<span class="d-lg-block">cooked by <a
+									href="https://snort.social/p/npub12zpfs3yq7we83yvypgsrw5f88y2fv780c2kfs89ge5qk6q3sfm7spks880"
+									target="_blank">M Ʌ R C</a>.</span></small></p>
+				</div>
+				<div class="col-md-4 col-lg-5 text-center text-md-start">
+					<!-- EMPTY -->
+				</div>
+				<div class="col-md-5 col-lg-4 text-end">
+					<ul class="list-unstyled">
+						<li class="mb-1"><a href="#nut" class="text-reset text-primary-hover">Hide Your Nuts</a></li>
+						<li class="mb-1"><a href="#why" class="text-reset text-primary-hover">Why</a></li>
+						<li class="mb-1"><a href="#fea" class="text-reset text-primary-hover">Features</a></li>
+						<li class="mb-1"><a href="#faq" class="text-reset text-primary-hover">FAQs</a></li>
+						<li class="mb-1"><a
+								href="https://github.com/gandlafbtc/nutstash-wallet/pkgs/container/nutstash-wallet"
+								target="_blank" class="text-reset text-primary-hover">Code</a></li>
+						<li><a href="https://t.me/+DRy-rSe5wQtlYTk1" target="_blank"
+								class="text-reset text-primary-hover">Help</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row align-items-center g-1 g-lg-6 text-muted">
+				<div class="col-lg-12 order-lg-1 text-center">
+					<small>This project is for research purposes only. Do not use for serious things!</small>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- javascript -->
+	<script src="assets/vendor.bundle.js"></script>
+	<script src="assets/index.bundle.js"></script>
+
+</body>
+
+</html>
